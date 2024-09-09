@@ -23,15 +23,9 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: cover.jpg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+        gradient_start: '#4bb4e3'
+        gradient_end: '#2b94c3'
+        gradient_angle: 180
 
 
   - block: cta-card
