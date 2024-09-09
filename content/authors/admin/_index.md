@@ -33,8 +33,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:soroushdianaty@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/soroushdty
   - icon: brands/github
     url: https://github.com/soroushdty
   - icon: brands/linkedin
@@ -63,20 +61,23 @@ education:
       url: 'https://ganj.irandoc.ac.ir/#/articles/6ce566eac110c79cab5a54f4446ec213'
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Laboratory Coursework
+        • Anatomy (4 course credit)
+        • Pathology (3 course credit)
+        • Parasitology, Mycology, and Entomology (1.5 course credit)
+        • Histology (1 course credit)
+        • Physiology (1 course credit)
+        • Microbiology (1 course credit)
+        • Biochemistry (1 course credit)
+
+      - Public Health Coursework
+        • Public Health 1: Principles of Health Services (2 course credit)
+        • Public Health 2: Principles of Epidemiology (2 course credit)
+        • Public Health 3: Family Health and Population (2 course credit)
+        • Public Health 4: Clerkship (2 course credit)
+        • Public Health 5: Clinical (2 course credit)
+        • Social Medicine Internship (4 course credit)
+
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -177,4 +178,8 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+    • Medical doctor with +5 years of research experience and 7 publications
+    • Hands-on research experience, from conceptualization to publication
+    • Proficient in biomedical data analysis using IBM SPSS and Python
+    • Resourceful and empathic learner, leveraging skills to address knowledge gaps, identifying requirements, and implementing them for independent and collaborative problem-solving
+Excited to bring my interdisciplinary expertise to a challenging PhD position, contributing to innovative research at the intersection of medical and computer sciences
