@@ -23,7 +23,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: '#a28089'
+        color: '#1d1e22'
 
 
   - block: cta-card
