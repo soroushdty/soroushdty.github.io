@@ -108,15 +108,15 @@ skills:
   - name: Technical Skills
     items:
       - name: Python
-        description: ''
+        description: 'program'
         percent: 80
         icon: code-bracket
-      - name: Data Science
-        description: ''
+      - name: mediciene
+        description: 'doctor'
         percent: 100
         icon: chart-bar
       - name: SQL
-        description: ''
+        description: 'sdfsf'
         percent: 40
         icon: circle-stack
   - name: Hobbies
