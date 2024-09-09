@@ -33,12 +33,12 @@ profiles:
   - icon: at-symbol
     url: 'mailto:soroushdianaty@gmail.com'
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/soroushdty
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/soroush-dianaty
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=GxlqqGoAAAAJ&hl=en
+  - icon: brands/github
+    url: https://github.com/soroushdty
   - icon: academicons/orcid
     url: https://orcid.org/0000-0001-5674-8999
 
@@ -178,8 +178,8 @@ awards:
 
 ## About Me
 
-    • Medical doctor with +5 years of research experience and 7 publications
-    • Hands-on research experience, from conceptualization to publication
-    • Proficient in biomedical data analysis using IBM SPSS and Python
-    • Resourceful and empathic learner, leveraging skills to address knowledge gaps, identifying requirements, and implementing them for independent and collaborative problem-solving
+  - Medical doctor with +5 years of research experience and 7 publications
+  - Hands-on research experience, from conceptualization to publication
+  - Proficient in biomedical data analysis using IBM SPSS and Python
+  - Resourceful and empathic learner, leveraging skills to address knowledge gaps, identifying requirements, and implementing them for independent and collaborative problem-solving
 Excited to bring my interdisciplinary expertise to a challenging PhD position, contributing to innovative research at the intersection of medical and computer sciences
