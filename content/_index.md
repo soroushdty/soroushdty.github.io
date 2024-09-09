@@ -8,7 +8,7 @@ design:
   # Default section spacing
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ['10px', '0', '10px', '0']
+    padding: ['0px', '0', '0px', '0']
 
 sections:
   - block: resume-biography-3
@@ -23,7 +23,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: '#1d1e22'
+        color: '#27272a'
 
 
   - block: cta-card
