@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Soroush Dianaty, MD
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Soroush
+last_name: Dianaty
 
 # Status emoji
 status:
-  icon: ☕️
+  icon:
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,54 +20,48 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Medical Doctor and Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name:
+    url:
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:soroushdianaty@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/soroushdty
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/soroushdty
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/soroush-dianaty
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=GxlqqGoAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-5674-8999
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Digital Health
+  - Health Informatics
+  - Learning Health Systems
+  - Electronic Health Records
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Doctor of Medicine (MD)
+    institution: Tehran Medical Branch, Islamic Azad University, Tehran, Iran
+    date_start: 2016-09-22
+    date_end: 2024-06-29
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis (defended on 6/29/2024): Comparison of the cost-effectiveness of plasmapheresis and hemoperfusion in the inflammatory response of COVID-19 patients in the intensive care unit of Farhikhtegan Hospital
+      Supervised by Dr. [Abasat Mirzaei] (https://tms.iau.ir/file/download/download/66756c4bd36ed-cv-en-abasat-mirzaei-2.pdf)
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
+      text: 'View Thesis (in Persian) on Iranian Research Institute for Information Science and Technology (IranDoc)'
+      url: 'https://ganj.irandoc.ac.ir/#/articles/6ce566eac110c79cab5a54f4446ec213'
+      
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
