@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: Blog
+summary: My writings
 type: landing
 
 cascade:
@@ -11,12 +11,12 @@ cascade:
 
 sections:
   - block: collection
-    id: teaching
+    id: blog
     content:
-      title: Teaching
+      title: blog
       filters:
         folders:
-          - teaching
+          - blog
     design:
       view: article-grid
       columns: 2
