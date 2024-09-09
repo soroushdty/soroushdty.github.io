@@ -71,11 +71,11 @@ education:
         • Biochemistry (1 course credit)
 
       - Public Health Coursework
-        • Public Health 1: Principles of Health Services (2 course credit)
-        • Public Health 2: Principles of Epidemiology (2 course credit)
-        • Public Health 3: Family Health and Population (2 course credit)
-        • Public Health 4: Clerkship (2 course credit)
-        • Public Health 5: Clinical (2 course credit)
+        • Public Health 1 Principles of Health Services (2 course credit)
+        • Public Health 2 Principles of Epidemiology (2 course credit)
+        • Public Health 3 Family Health and Population (2 course credit)
+        • Public Health 4 Clerkship (2 course credit)
+        • Public Health 5 Clinical (2 course credit)
         • Social Medicine Internship (4 course credit)
 
 work:
