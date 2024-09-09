@@ -23,9 +23,7 @@ sections:
     design:
       css_class: dark
       background:
-        gradient_start: '#4bb4e3'
-        gradient_end: '#2b94c3'
-        gradient_angle: 180
+        color: '#0B610B'
 
 
   - block: cta-card
