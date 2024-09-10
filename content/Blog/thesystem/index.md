@@ -1,13 +1,13 @@
 ---
-title: Learn JavaScript
-summary: Easily learn JavaScript in 10 minutes!
+title: Efficient Task Management System using Kanban and Obsidian
+summary: How to create a free automation system for your tasks by combining Kanban scheduling  with Obsidian Personal Information Management (PIM).
 date: 2023-10-24
 type: docs
 math: false
 tags:
-  - JavaScript
+  - thesystem
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: 'TO DO'
 ---
 
 [Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
