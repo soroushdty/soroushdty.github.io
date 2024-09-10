@@ -19,6 +19,6 @@ sections:
           - blog
     design:
       view: showcase
-      columns: 1
+      columns: '1'
       flip_alt_rows: true
 ---
