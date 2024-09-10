@@ -56,28 +56,28 @@ education:
     date_end: 2024-06-29
     summary: |
       Thesis (defended on 6/29/2024): Comparison of the cost-effectiveness of plasmapheresis and hemoperfusion in the inflammatory response of COVID-19 patients in the intensive care unit of Farhikhtegan Hospital
-      Supervised by Dr. [Abasat Mirzaei] (https://tms.iau.ir/file/download/download/66756c4bd36ed-cv-en-abasat-mirzaei-2.pdf)
+      Supervised by Dr. Abasat Mirzaei [CV](https://tms.iau.ir/file/download/download/66756c4bd36ed-cv-en-abasat-mirzaei-2.pdf) [Google Scholar](https://scholar.google.com/citations?user=y8LNDOYAAAAJ&hl=en)
     button:
       text: 'View Thesis (in Persian) on Iranian Research Institute for Information Science and Technology (IranDoc)'
       url: 'https://ganj.irandoc.ac.ir/#/articles/6ce566eac110c79cab5a54f4446ec213'
       
-      Courses included:
-      - Laboratory Coursework
-        • Anatomy (4 course credit)
-        • Pathology (3 course credit)
-        • Parasitology, Mycology, and Entomology (1.5 course credit)
-        • Histology (1 course credit)
-        • Physiology (1 course credit)
-        • Microbiology (1 course credit)
-        • Biochemistry (1 course credit)
+    Courses included:
+    - Laboratory Coursework
+      • Anatomy (4 course credit)
+      • Pathology (3 course credit)
+      • Parasitology, Mycology, and Entomology (1.5 course credit)
+      • Histology (1 course credit)
+      • Physiology (1 course credit)
+      • Microbiology (1 course credit)
+      • Biochemistry (1 course credit)
 
-      - Public Health Coursework
-        • Public Health 1 Principles of Health Services (2 course credit)
-        • Public Health 2 Principles of Epidemiology (2 course credit)
-        • Public Health 3 Family Health and Population (2 course credit)
-        • Public Health 4 Clerkship (2 course credit)
-        • Public Health 5 Clinical (2 course credit)
-        • Social Medicine Internship (4 course credit)
+    - Public Health Coursework
+      • Public Health 1 Principles of Health Services (2 course credit)
+      • Public Health 2 Principles of Epidemiology (2 course credit)
+      • Public Health 3 Family Health and Population (2 course credit)
+      • Public Health 4 Clerkship (2 course credit)
+      • Public Health 5 Clinical (2 course credit)
+      • Social Medicine Internship (4 course credit)
 
 work:
   - position: Director of Cloud Infrastructure
