@@ -1,7 +1,6 @@
 ---
 title: Detection of type 2 myocardial infarction from photoplethysmography using CNN-LSTM neural networks and manifold learning
 date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
 tags:
   - Hugo
   - Wowchemy
