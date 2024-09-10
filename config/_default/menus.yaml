@@ -5,10 +5,10 @@
 
 main:
   - name: Education
-    url: education/
+    url: experience/  # Link to education section
     weight: 10
   - name: Experience
-    url: experience/
+    url: experience/ # Link to experience section
     weight: 20
   - name: Skills
     url: skills/
