@@ -14,7 +14,7 @@ sections:
       title: Ongoing Projects
       text: At any given time, I am working on several personal and work-related projects.
             My main tool for project management is combining Kanban scheduling system with Obsdian Personal Information Management (PIM) to create a free automation system for my tasks.
-            You can read more about my task management system ([here]({{< relref "/blog/system" >}})), including how to set it up for yourself.
+            You can read more about my task management system [here](/blog/system), including how to set it up for yourself.
       filters:
         folders:
           - projects/ongoing
