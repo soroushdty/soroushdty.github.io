@@ -8,10 +8,10 @@ main:
     url: education/
     weight: 10
   - name: Experience
-    url: experience.md
+    url: content/experience.md
     weight: 20
   - name: Skills
-    url: skills.md
+    url: content/skills.md
     weight: 30
   - name: Publications
     url: publication/
@@ -26,5 +26,5 @@ main:
     url: blog/
     weight: 70
   - name: Contact
-    url: contact.md
+    url: content/contact.md
     weight: 80
