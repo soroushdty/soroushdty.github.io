@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Medical Doctor
+role: Medical Doctor\
       Biomedical Informatics Researcher
 
 # Organizations/Affiliations to display in Biography blox
