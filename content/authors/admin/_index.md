@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Medical Doctor\
+role: Medical Doctor <br />
       Biomedical Informatics Researcher
 
 # Organizations/Affiliations to display in Biography blox
@@ -183,4 +183,5 @@ awards:
   - Hands-on research experience, from conceptualization to publication
   - Proficient in biomedical data analysis using IBM SPSS and Python
   - Resourceful and empathic learner, leveraging skills to address knowledge gaps, identifying requirements, and implementing them for independent and collaborative problem-solving
+  <br /> 
 Excited to bring my interdisciplinary expertise to a challenging PhD position, contributing to innovative research at the intersection of medical and computer sciences
