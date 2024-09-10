@@ -135,8 +135,8 @@ skills:
     items:
 
       - name: Academic Writing
-        description: '- Drafting and proofreading academic manuscripts and literature reviews
-                      - Reporting, interpreting, and publishing results'
+        description: 'Drafting and proofreading academic manuscripts and literature reviews
+                      Reporting, interpreting, and publishing results'
         icon: code-bracket
 
       - name: Study Design
