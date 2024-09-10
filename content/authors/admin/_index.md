@@ -108,35 +108,102 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Research Skills
     items:
-      - name: Python
-        description: 'program'
-        percent: 80
+
+      - name: Academic Writing
+        description: '- Drafting and proofreading academic manuscripts and literature reviews
+                      - Reporting, interpreting, and publishing results'
         icon: code-bracket
-      - name: mediciene
-        description: 'doctor'
-        percent: 100
+
+      - name: Study Design
+        description: 'Design and implementation of observational and experimental studies'
         icon: chart-bar
-      - name: SQL
-        description: 'sdfsf'
-        percent: 40
+
+      - name: Reference management software
+        description: 'Zotero, Endnote'
         icon: circle-stack
-  - name: Hobbies
+
+  - name: Programming Skills
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+
+      - name: Python (+3 years of experience)
         description: ''
-        percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
+
+      - name: Linux (+1 year of experience)
+        description: 'Arch Linux, Ubuntu, and Debian <br /> Bash Scripting'
         icon: cat
-      - name: Photography
+
+      - name: Version Control (basic)
+        description: 'Git, Github'
+        icon: camera
+
+      - name: Data Serialization Languages
+        description: 'JSON, TOML, YAML'
+        icon: camera
+
+      - name: Markup Languages
+        description: 'Markdown, XML'
+        icon: camera
+
+      - name: R
+        description: 'Learning in progress...'
+        icon: camera
+
+  - name: Software Skills
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+
+      - name: IDE
+        description: 'VSCode, Google Colab, vim, Jupyter Notebook, RStudio'
+        icon: camera
+
+      - name: Obsidian
+        description: 'Microsoft Office and Google Workspace'
+        icon: camera
+
+      - name: Static Website Design and Hosting
+        description: 'Hugo, Github Pages'
+        icon: camera
+
+      - name: Office (proficient)
+        description: 'Microsoft Office and Google Workspace'
+        icon: camera
+
+      - name: Graphic Design (intermediate)
+        description: 'Canva'
+        icon: camera
+
+  - name: Data Analytics Skills
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: IBM SPPS
+        description: 'Visualization, hypothesis testing, regression models, survival analysis'
+        icon: person-simple-walk
+
+      - name: Numpy
+        description: 'Data wrangling'
+        icon: cat
+
+      - name: Pandas
         description: ''
-        percent: 80
+        icon: camera
+
+      - name: Matplotlib
+        description: 'Data Visualization'
+        icon: camera
+
+      - name: Scikit-learn
+        description: 'Regression models, SVM, kNN, decision trees, random forests'
+        icon: camera
+
+      - name: Tensorflow
+        description: 'basic sequential models (MLP, CNN, RNN)'
         icon: camera
 
 languages:

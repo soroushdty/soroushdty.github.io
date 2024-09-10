@@ -13,6 +13,6 @@ sections:
 
   - block: resume-awards
     content:
-      title: Awards
+      title: Certificates
       username: admin
 ---
