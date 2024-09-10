@@ -17,7 +17,7 @@ sections:
             You can read more about my task management system ([here]({{< relref "/blog/system" >}})), including how to set it up for yourself.
       filters:
         folders:
-          - project
+          - projects/ongoing
     design:
       view: article-grid
       fill_image: false
@@ -29,7 +29,7 @@ content:
   text: You can see a list of my finished projects, including those leading to publication in peer-reviewed journals, in this section.
   filters:
     folders:
-      - project
+      - projects/finished
 design:
   view: article-grid
   fill_image: false
