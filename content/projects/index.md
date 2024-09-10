@@ -21,25 +21,8 @@ sections:
       # Display content from the `content/post/` folder
       filters:
         folders:
-          - projects/ongoing
+          - projects
     design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      # Choose your content listing view 
       view: card
-
-  - block: collection
-    id: section-1
-    content:
-      title: Finished Projects
-      text: You can see a list of my finished projects, including those leading to publication in peer-reviewed journals, in this section.
-      # Display content from the `content/post/` folder
-      filters:
-        folders:
-          - projects/finished
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
-      # Choose your content listing view 
-      view: card
 ---
