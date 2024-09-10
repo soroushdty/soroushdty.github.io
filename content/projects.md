@@ -8,21 +8,16 @@ design:
   spacing: '5rem'
 
 # Page sections
-
 sections:
-  # A section to display blog posts
   - block: collection
-    id: section-1
     content:
-      title: Ongoing Projects
-      text: At any given time, I am working on several personal and work-related projects.
-            My main tool for project management is combining Kanban scheduling system with Obsdian Personal Information Management (PIM) to create a free automation system for my tasks.
-            You can read more about my task management system <a href="https://drdianaty.com/blog/system/">here</a>, including how to set it up for yourself.
-      # Display content from the `content/post/` folder
+      title: Selected Projects
+      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
       filters:
         folders:
-          - projects
+          - project
     design:
-      view: card
-      columns: '1'
+      view: article-grid
+      fill_image: false
+      columns: 3
 ---
