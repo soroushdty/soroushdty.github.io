@@ -16,7 +16,7 @@ sections:
             My main tool for project management is combining Kanban scheduling system with Obsdian Personal Information Management (PIM) to create a free automation system for my tasks. You can read more about my task management system <a href="https://drdianaty.com/blog/system/">here</a>, including how to set it up for yourself.
       filters:
         folders:
-          - projects
+          - project
     design:
       view: article-grid
       fill_image: false
