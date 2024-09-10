@@ -80,30 +80,68 @@ education:
       url: 'https://ganj.irandoc.ac.ir/#/articles/6ce566eac110c79cab5a54f4446ec213'
       
 
-
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+
+  - position: Medical Intern
+    company_name: IAUTMU Hospital System, Tehran, Iran
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-10-01
+    date_end: '2024-05-01'
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      5,440 hours of hands-on hospital experience <br />
+      - Buali Hospital (X months)
+      - Farhikhtegan Hospital (X months)
+      - Amir-al-Momenin Hospital (X months)
+      - Lavasani Hospital (1 month)
+      in internal medicine, surgery, infectious diseases, social medicine, emergency medicine, pediatrics, OB/GYN, psychiatry, urology, cardiology, dermatology
+
+  - position: Research Assistant
+    company_name: Computational Medicine Center, K. N. Toosi University of Technology, Tehran, Iran
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-08-01
+    date_end: '2024-05-01'
+    summary: |2-
+      - Head of an interdisciplinary team developing artificial neural networks for cardiovascular disease detection using demographic and photoplethysmography (PPG) patient data from the MIMIC-IV database
+      - Contributed +400 lines of Python code for data acquisition and preprocessing on Google Colab
+
+  - position: Executive and Research Assistant  
+    company_name: Universal Scientific Education and Research Network (USERN), Tehran, Iran
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-03-01
+    date_end: 2023-03-01
+    summary: |
+          - Engaged in regular knowledge exchange meetings with young researchers
+          - Event organization, content creation, graphic design, and coordinating logistics
+          - Developed a Python script for automated certificate issuance, resulting in a 60% time-saving
+
+  - position: Clinical Clerkship  
+    company_name: IAUTMU Hospital System, Tehran, Iran
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-10-01
+    date_end: '2022-10-01'
+    summary: |
+      2,169 hours of hospital observership <br />
+      - Buali Hospital (X months)
+      - Farhikhtegan Hospital (X months)
+      - Amir-al-Momenin Hospital (X months)
+      - Lavasani Hospital (1 month)
+       in internal medicine, pediatrics, surgery, OB/GYN, psychiatry, urology, radiology, infectious diseases, orthopedics, ENT, neurology, cardiology, ophthalmology, dermatology
+
+  - position: Research Assistant  
+    company_name: Department of Physiology, IAUTMU, Tehran, Iran
+    company_url: ''
+    company_logo: ''
+    date_start: 2018-05-01
+    date_end: 2020-01-01
+    summary: |
+              - Translated and/or proofread +50 scientific manuscripts
+              - Conducted data entry, ANOVA, non-parametric tests, chi-square test, and regression models in IBM SPSS
+              - Hands-on experience in lab animal handling, behavioral tests, dissection, and sample collection
+              - Coordinated sample exchange and collaboration with other organizations
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
