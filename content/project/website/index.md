@@ -2,9 +2,9 @@
 title: Personal Website
 date: 2024-09-09
 tags:
+  - Markdown
   - Hugo
   - Hugoblox
-  - Markdown
 ---
 In progress
 
