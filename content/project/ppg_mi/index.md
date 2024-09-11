@@ -28,3 +28,6 @@ This project's goal is to develop a robust ML model capable of accurately identi
 - Preprocessing: pandas (one-hot encoding), sklearn (Standard Scaler)
 - Dimensionality Reduction: Sklearn (PCA, isomap, LLE, MLLE, HLLE, MDS)
 - Model Training: Tensorflow (CNN-LSTM)
+
+## Rationale
+A CNN-LSTM model is suitable for this task because it combines the strengths of both convolutional neural networks (CNNs) and long short-term memory networks (LSTMs). CNNs excel at extracting spatial features from the PPG waveforms and highlighting significant patterns, while LSTMs are adept at handling sequential data, capturing the temporal dependencies crucial for time-series analysis. This hybrid approach allows for a comprehensive analysis of the PPG signals and patient demographics, leading to more accurate detection and differentiation of type 2 MI.
