@@ -1,6 +1,6 @@
 ---
 title: Personal Website
-date: 2023-10-26
+date: 2024-09-09
 tags:
   - Hugo
   - Hugoblox

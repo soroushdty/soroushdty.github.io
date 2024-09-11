@@ -1,6 +1,6 @@
 ---
 title: Detection of type 2 myocardial infarction from photoplethysmography using CNN-LSTM neural networks and manifold learning
-date: 2023-10-26
+date: 2023-12-01
 tags:
   - Python
   - ANN
@@ -8,6 +8,8 @@ tags:
 ---
 
 Status: Model Training
+
+<!--more-->
 Dataset: MIMIC-IV, MIMIC-IV Waveform
 
 Implementation: Python via Google Colab
@@ -25,5 +27,3 @@ Preprocessing: pandas (one-hot encoding), sklearn (Standard Scaler)
 Dimensionality Reduction: Sklearn (PCA, isomap, LLE, MLLE, HLLE, MDS)
 
 Model Training: Tensorflow (CNN-LSTM)
-
-<!--more-->
