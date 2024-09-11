@@ -12,6 +12,8 @@ Status: Evidence Synthesis
 
 Machine learning (ML) offers a promising methodology for big data analytics due to its high predictive ability and capacity to handle large datasets derived from sources such as electronic health records (EHR). With the significan impact of The COVID-19 pandemic on mental health worldwide, many studies have employed ML techniques to analyze mental health data, aiming to identify patterns and predict adverse mental health outcomes. These studies leverage various ML methodologies to this end. Understanding this methodology will facilitate the integration of ML into mental health research, and dynamic analytic systems that can continuously monitor and assess the mental health of populations.
 
+_This is a reboot of an older scrapped project for a narrative review on a related topic._
+
 ## Goal
 This project aims to systematically review and compare mental health studies using ML during the pandemic, focusing on methodologies, data types, end goals, and data pipelines.
 
