@@ -6,7 +6,7 @@ tags:
   - Hugo
   - Hugoblox
 ---
-In progress
+Status: Initial phase
 
 
 <!--more-->
