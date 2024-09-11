@@ -22,7 +22,7 @@ This project aims to develop a framework for generating synthetic photoplethysmo
 - Data Processing: Input is received as NPZ compressed numpy arrays of filtered high-quality one-minute lenght of PPG waves and their corresponding fidicual points. We use a 70:30 train-test split and 10-fold cross validation.
 
 - Model Development: A GAN architecture consisting of a generator and discriminator is implemented using Tensorflow. The generated wave's biomarkers are evaluated against real-world PPG waves from MIMIC-IV dataset.
-the synthetic data closely mimics real-world PPG signals.
+The synthetic data should closely resembles real-world PPG signals when compared to biomarkers extracted from it.
 
 ## Tools Used
 * Python(numpy, pandas, pyppg, Tensorflow)
