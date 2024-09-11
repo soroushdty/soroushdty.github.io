@@ -3,7 +3,7 @@ title: Personal Website
 date: 2023-10-26
 tags:
   - Hugo
-  - Wowchemy
+  - Hugoblox
   - Markdown
 ---
 Hugo

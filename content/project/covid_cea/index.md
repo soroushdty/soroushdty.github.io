@@ -2,9 +2,9 @@
 title: Cost-effectiveness analysis of plasmapheresis and hemoperfusion in COVID-19 survivors after hospital discharge
 date: 2023-10-26
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - R
+  - SPSS
+  - COVID-19
 ---
 
 Status: Submitted, in review
