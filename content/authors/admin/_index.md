@@ -248,7 +248,8 @@ awards:
     certificate_url: https://www.citiprogram.org/verify/?wae696543-44e0-4097-82ba-8d4dcfbfb131-58116695
     date: '2023-09-06'
     awarder: CITI Program
-    icon: assets/media/icons/custom/CITI.svg
+    icon: CITI
+    icon_pack: custom
     summary: |
       The CITI Data or Specimens only course covers important aspects of research with human participant data. Modules covered include:
       - Belmont Report and Its Principles
