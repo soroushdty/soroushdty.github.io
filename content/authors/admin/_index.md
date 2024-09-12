@@ -248,7 +248,7 @@ awards:
     certificate_url: https://www.citiprogram.org/verify/?wae696543-44e0-4097-82ba-8d4dcfbfb131-58116695
     date: '2023-09-06'
     awarder: CITI Program
-    icon: custom/CITI
+    icon: "custom/CITI"
     summary: |
       The CITI Data or Specimens only course covers important aspects of research with human participant data. Modules covered include:
       - Belmont Report and Its Principles
@@ -265,7 +265,7 @@ awards:
     certificate_url: https://www.citiprogram.org/verify/?w8127af47-74c0-4f4a-8b6e-aa0b0be17f9f-58116696
     date: '2023-09-05'
     awarder: CITI Program
-    icon: edx
+    icon: "custom/CITI"
     summary: |
       The CITI Conflicts of Interest course covers important aspects of conflicts of interest in research. Modules covered include:
       - Financial Conflicts of Interest: Overview, Investigator Responsibilities, and COI Rules
@@ -275,13 +275,24 @@ awards:
   - title: '6th USERN Research Week'
     url: https://usern.tums.ac.ir/SubEvent?mainEventID=13
     certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
+    date: '2022-03-04'
     awarder: USERN
-    icon: datacamp
+    icon: "custom/USERN"
     summary: |
       Scientific Writing, Submission and Journal Selection, Introduction to Basic Statistics,
       Meta-Analysis, Publishing Books with International Publishers
       27 Feb-4 Mar 2022, Children's Medical Center, Tehran, Iran
+
+  - title: '2nd USERN Laboratory School'
+    url: https://usern.tums.ac.ir/SubEvent?mainEventID=12
+    certificate_url: https://www.dropbox.com/scl/fi/lcjfmf9u2ydv8lk0neaq5/Bioinformatics-Certificate.jpg?rlkey=rar3yxddw6ya9bitrie1yzytc&dl=0
+    date: '2022-02-08'
+    awarder: USERN
+    icon: "custom/USERN"
+    summary: |
+      Bioinformatics Workshop
+      8 Feb 2022, Children's Medical Center, Tehran, Iran
+
 ---
 
 ## About Me
