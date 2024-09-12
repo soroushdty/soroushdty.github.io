@@ -289,10 +289,10 @@ awards:
 
   - title: '2nd USERN Laboratory School'
     url: https://usern.tums.ac.ir/SubEvent?mainEventID=12
-    certificate_url: uploads/Bioinformatics Certificate.jpg
+    certificate_url: static/uploads/Bioinformatics Certificate.jpg
     date: '2022-02-08'
     awarder: USERN
-    icon: "custom/USERN"
+    icon: custom/USERN.svg
     summary: |
       8 Feb 2022, Children's Medical Center, Tehran, Iran
       - Bioinformatics Workshop
