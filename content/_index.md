@@ -19,7 +19,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download My Resume
-        url: uploads/Resume -Soroush Dianaty.pdf
+        url: uploads/Resume - Soroush Dianaty.pdf
     design:
       css_class: dark
       background:

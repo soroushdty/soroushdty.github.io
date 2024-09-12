@@ -205,7 +205,7 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: IBM SPPS
+      - name: IBM SPSS
         description: 'Visualization, hypothesis testing, regression models, survival analysis'
         icon: person-simple-walk
 
@@ -245,7 +245,7 @@ languages:
 awards:
   - title: 'Human / Data or Specimens Only Research Program Course'
     url: https://about.citiprogram.org/
-    certificate_url: https://www.citiprogram.org/verify/?wae696543-44e0-4097-82ba-8d4dcfbfb131-58116695
+    certificate_url: uploads/citiCompletionCertificate_12564329_58116695.pdf
     date: '2023-09-06'
     awarder: CITI Program
     icon: "custom/CITI"
@@ -262,7 +262,7 @@ awards:
 
   - title: 'Conflicts of Interest Program Course'
     url: https://about.citiprogram.org/
-    certificate_url: https://www.citiprogram.org/verify/?w8127af47-74c0-4f4a-8b6e-aa0b0be17f9f-58116696
+    certificate_url: uploads/citiCompletionCertificate_12564329_58116696.pdf
     date: '2023-09-05'
     awarder: CITI Program
     icon: "custom/CITI"
@@ -274,24 +274,63 @@ awards:
 
   - title: '6th USERN Research Week'
     url: https://usern.tums.ac.ir/SubEvent?mainEventID=13
-    certificate_url: https://www.datacamp.com
+    certificate_url: uploads/usern_researchweek
     date: '2022-03-04'
     awarder: USERN
     icon: "custom/USERN"
     summary: |
-      Scientific Writing, Submission and Journal Selection, Introduction to Basic Statistics,
-      Meta-Analysis, Publishing Books with International Publishers
       27 Feb-4 Mar 2022, Children's Medical Center, Tehran, Iran
+      - Scientific Writing
+      - Submission and Journal Selection
+      - Introduction to Basic Statistics
+      - Meta-Analysis
+      - Publishing Books with International Publishers
+      
 
   - title: '2nd USERN Laboratory School'
     url: https://usern.tums.ac.ir/SubEvent?mainEventID=12
-    certificate_url: https://www.dropbox.com/scl/fi/lcjfmf9u2ydv8lk0neaq5/Bioinformatics-Certificate.jpg?rlkey=rar3yxddw6ya9bitrie1yzytc&dl=0
+    certificate_url: uploads/Bioinformatics Certificate.jpg
     date: '2022-02-08'
     awarder: USERN
     icon: "custom/USERN"
     summary: |
-      Bioinformatics Workshop
       8 Feb 2022, Children's Medical Center, Tehran, Iran
+      - Bioinformatics Workshop
+
+  - title: 'Entrepreneurship in e-Health Training Course'
+    url: https://evand.com/events/%D8%AF%D9%88%D8%B1%D9%87-%D8%A2%D9%86%D9%84%D8%A7%DB%8C%D9%86-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D8%AF%D8%B1-%D8%B3%D9%84%D8%A7%D9%85%D8%AA-%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9-80901290
+    certificate_url: uploads/entrepreneurshipehealth.pdf
+    date: '2021-12-10'
+    awarder: The Canon Science Association
+
+  - title: 'Introduction to Endnote Software Workshop'
+    certificate_url: uploads/endnote.jpg
+    date: '2018-05-14'
+    awarder: IAUTMU Student Research Committee
+
+  - title: 'Article Writing Workshop'
+    certificate_url: uploads/article.jpg
+    date: '2018-05-12'
+    awarder: IAUTMU Student Research Committee
+
+  - title: 'Proposal Writing Workshop'
+    certificate_url: uploads/proposal.jpg
+    date: '2018-05-07'
+    awarder: IAUTMU Student Research Committee
+
+  - title: 'First Iranian Congress on Academic Medicine'
+    certificate_url: uploads/academicmedicine.jpg
+    date: '2018-04-20'
+    awarder: IAUTMU and University of Oxford
+    summary: |
+            Farhikhtegan Hospital, Tehran, Iran
+
+  - title: 'First Event of "From Idea to Action in Healthcare"'
+    certificate_url: uploads/ideatoaction
+    date: '2018-03-10'
+    awarder: Islamic Azad University
+    summary:  |
+            Farhikhtegan Hospital, Tehran, Iran
 
 ---
 
