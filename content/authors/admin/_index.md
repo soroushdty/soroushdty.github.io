@@ -326,7 +326,7 @@ awards:
             Farhikhtegan Hospital, Tehran, Iran
 
   - title: 'First Event of "From Idea to Action in Healthcare"'
-    certificate_url: ideatoaction
+    certificate_url: ideatoaction.jpg
     date: '2018-03-10'
     awarder: Islamic Azad University
     summary:  |
