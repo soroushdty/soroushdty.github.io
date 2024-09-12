@@ -245,7 +245,7 @@ languages:
 awards:
   - title: 'Human / Data or Specimens Only Research Program Course'
     url: https://about.citiprogram.org/
-    certificate_url: uploads/citiCompletionCertificate_12564329_58116695.pdf
+    certificate_url: citiCompletionCertificate_12564329_58116695.pdf
     date: '2023-09-06'
     awarder: CITI Program
     icon: "custom/CITI"
@@ -262,7 +262,7 @@ awards:
 
   - title: 'Conflicts of Interest Program Course'
     url: https://about.citiprogram.org/
-    certificate_url: uploads/citiCompletionCertificate_12564329_58116696.pdf
+    certificate_url: citiCompletionCertificate_12564329_58116696.pdf
     date: '2023-09-05'
     awarder: CITI Program
     icon: "custom/CITI"
@@ -274,7 +274,7 @@ awards:
 
   - title: '6th USERN Research Week'
     url: https://usern.tums.ac.ir/SubEvent?mainEventID=13
-    certificate_url: uploads/usern_researchweek
+    certificate_url: usern_researchweek
     date: '2022-03-04'
     awarder: USERN
     icon: "custom/USERN"
@@ -289,7 +289,7 @@ awards:
 
   - title: '2nd USERN Laboratory School'
     url: https://usern.tums.ac.ir/SubEvent?mainEventID=12
-    certificate_url: /static/uploads/Bioinformatics Certificate.jpg
+    certificate_url: Bioinformatics Certificate.jpg
     date: '2022-02-08'
     awarder: USERN
     icon: /assets/media/icons/custom/CITI.svg
@@ -299,34 +299,34 @@ awards:
 
   - title: 'Entrepreneurship in e-Health Training Course'
     url: https://evand.com/events/%D8%AF%D9%88%D8%B1%D9%87-%D8%A2%D9%86%D9%84%D8%A7%DB%8C%D9%86-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D8%AF%D8%B1-%D8%B3%D9%84%D8%A7%D9%85%D8%AA-%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9-80901290
-    certificate_url: uploads/entrepreneurshipehealth.pdf
+    certificate_url: entrepreneurshipehealth.pdf
     date: '2021-12-10'
     awarder: The Canon Science Association
 
   - title: 'Introduction to Endnote Software Workshop'
-    certificate_url: uploads/endnote.jpg
+    certificate_url: endnote.jpg
     date: '2018-05-14'
     awarder: IAUTMU Student Research Committee
 
   - title: 'Article Writing Workshop'
-    certificate_url: uploads/article.jpg
+    certificate_url: article.jpg
     date: '2018-05-12'
     awarder: IAUTMU Student Research Committee
 
   - title: 'Proposal Writing Workshop'
-    certificate_url: uploads/proposal.jpg
+    certificate_url: proposal.jpg
     date: '2018-05-07'
     awarder: IAUTMU Student Research Committee
 
   - title: 'First Iranian Congress on Academic Medicine'
-    certificate_url: uploads/academicmedicine.jpg
+    certificate_url: academicmedicine.jpg
     date: '2018-04-20'
     awarder: IAUTMU and University of Oxford
     summary: |
             Farhikhtegan Hospital, Tehran, Iran
 
   - title: 'First Event of "From Idea to Action in Healthcare"'
-    certificate_url: uploads/ideatoaction
+    certificate_url: ideatoaction
     date: '2018-03-10'
     awarder: Islamic Azad University
     summary:  |
