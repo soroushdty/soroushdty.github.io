@@ -76,11 +76,10 @@ work:
     date_end: '2024-05-01'
     summary: |
       5,440 hours of hands-on hospital experience <br />
-      - Buali Hospital (X months)
-      - Farhikhtegan Hospital (X months)
-      - Amir-al-Momenin Hospital (X months)
-      - Lavasani Hospital (1 month)
-      in internal medicine, surgery, infectious diseases, social medicine, emergency medicine, pediatrics, OB/GYN, psychiatry, urology, cardiology, dermatology
+      - Buali Hospital: cardiology (1 month), emergency medicine (1 month), pediatrics (3 months), social medicine (1 month), OB/GYN (1 month), internal medicine (1 month), urology (1 month), dermatology (1 month), surgery (1 month)
+      - Farhikhtegan Hospital: OB/GYN (2 months), internal medicine (1 month), pediatrics (1 month), infectious diseases (1 month), surgery (1 month)
+      - Amir-al-Momenin Hospital: internal medicine (1 month), pediatrics (1 month)
+      - Lavasani Hospital: psychiatry (1 month) 
 
   - position: Research Assistant
     company_name: Computational Medicine Center, K. N. Toosi University of Technology, Tehran, Iran
@@ -111,11 +110,11 @@ work:
     date_end: '2022-10-01'
     summary: |
       2,169 hours of hospital observership <br />
-      - Buali Hospital (X months)
-      - Farhikhtegan Hospital (X months)
-      - Amir-al-Momenin Hospital (X months)
-      - Lavasani Hospital (1 month)
-       in internal medicine, pediatrics, surgery, OB/GYN, psychiatry, urology, radiology, infectious diseases, orthopedics, ENT, neurology, cardiology, ophthalmology, dermatology
+      - Buali Hospital (1 month each): cardiology, pediatrics, internal medicine, surgery, OB/GYN, orthopedics, ENT
+      - Farhikhtegan Hospital (1 month each): internal medicine, pediatrics, surgery, OB/GYN, infectious diseases, neurology, radiology
+      - Amir-al-Momenin Hospital (1 month each): internal medicine, pediatrics, dermatology, urology
+      - Lavasani Hospital: psychiatry (1 month)
+      - Naft Hospital: ophthalmology (1 month)
 
   - position: Research Assistant  
     company_name: Department of Physiology, IAUTMU, Tehran, Iran
