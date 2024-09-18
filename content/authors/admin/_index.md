@@ -55,13 +55,14 @@ education:
     date_start: 2016-09-22
     date_end: 2024-06-29
     summary: |
-      Thesis (defended on 6/29/2024): Comparison of the cost-effectiveness of plasmapheresis and hemoperfusion in the inflammatory response of COVID-19 patients in the intensive care unit of Farhikhtegan Hospital <br /> 
-      Supervised by Dr. Abasat Mirzaei
+      Thesis Defence: 6/29/2024 <br />
+      Supervisor: Dr. Abasat Mirzaei, PhD (
       <a href="https://tms.iau.ir/file/download/download/66756c4bd36ed-cv-en-abasat-mirzaei-2.pdf">CV</a>
       <a href="https://scholar.google.com/citations?user=y8LNDOYAAAAJ&hl=en">Google Scholar</a>
+      )
 
     button:
-      text: 'View Thesis (in Persian) on Iranian Research Institute for Information Science and Technology (IranDoc)'
+      text: 'Thesis (in Persian): Comparison of the cost-effectiveness of plasmapheresis and hemoperfusion in the inflammatory response of COVID-19 patients in the intensive care unit of Farhikhtegan Hospital'
       url: 'https://ganj.irandoc.ac.ir/#/articles/6ce566eac110c79cab5a54f4446ec213'
       
 
