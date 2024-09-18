@@ -56,8 +56,9 @@ education:
     date_end: 2024-06-29
     summary: |
       Thesis Defence: 6/29/2024 <br />
-      Supervisor: Dr. Abasat Mirzaei, PhD (
+      Supervisor: Dr. Abasat Mirzaei PhD (
       <a href="https://tms.iau.ir/file/download/download/66756c4bd36ed-cv-en-abasat-mirzaei-2.pdf">CV</a>
+      ,
       <a href="https://scholar.google.com/citations?user=y8LNDOYAAAAJ&hl=en">Google Scholar</a>
       )
 
