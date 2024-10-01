@@ -11,5 +11,4 @@ image:
 
 # Test
 
-This is a test page
-Let's see it works! q
+Let's see it works!
