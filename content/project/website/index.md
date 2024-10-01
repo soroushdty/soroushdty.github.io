@@ -17,7 +17,7 @@ My personal website, built using Hugo, an open-source static website generator d
 ## Future Plans
 - Sharing my personal Obsidian vaults as ebooks on Python and biomedical informatics, which will be freely available on the website
 - More blog posts
-- Make the website bilingual by adding content in Persian
-- Link personal website project with Github site repo readme.md
-- Download cv fully automated: full / resume / custom
-- Connecting to local Obsidian vault
+- Make the website bilingual by adding content in the Persian
+- Link personal website project w/ github site repo readme.md
+- download cv fully automated: full / resume / custom
+- 
