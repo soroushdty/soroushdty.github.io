@@ -1,7 +1,7 @@
 ---
 title: TEST PAGE
-summary: How to create a free automation system for your tasks by combining Kanban scheduling  with Obsidian Personal Information Management (PIM).
-date: 2023-10-24
+summary: THIS IS A TEST PAGE
+date: 2024-10-24
 type: docs
 math: false
 tags:
