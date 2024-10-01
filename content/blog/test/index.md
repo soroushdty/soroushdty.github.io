@@ -4,7 +4,8 @@ summary: THIS IS A TEST PAGE
 date: 2024-10-24
 type: docs
 math: false
-tags: []
+tags:
+  - test
 ---
 
 # Test
