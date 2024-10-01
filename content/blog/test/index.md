@@ -5,8 +5,6 @@ date: 2024-10-24
 type: docs
 math: false
 tags: []
-image:
-  caption: TO DO
 ---
 
 # Test
