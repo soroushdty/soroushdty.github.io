@@ -11,4 +11,4 @@ tags:
 # Test
 
 Let's see it works!
-what is a [[synth]]
+what is a [Synthesis](w/content/project/ppg_synth/index.md)?
