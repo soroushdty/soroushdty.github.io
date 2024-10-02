@@ -6,8 +6,7 @@ type: docs
 math: false
 tags:
   - test
-aliases:
-  - test
+aliases: []
 ---
 
 # Test
