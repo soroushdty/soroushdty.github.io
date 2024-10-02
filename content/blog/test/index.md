@@ -11,4 +11,4 @@ tags:
 # Test
 
 Let's see it works!
-what is a [[]]
+what is a [[synth]]
