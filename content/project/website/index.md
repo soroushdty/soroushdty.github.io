@@ -8,9 +8,6 @@ tags:
 ---
 Status: Initial phase
 
-
-<!--more-->
-
 ## Description
 
 My personal website, built using Hugo, an open-source static website generator developed in Go, incorporates the Hugo Academic CV Theme by Hugo Blox. Hosted on Github pages, this website serves as a comprehensive platform showcasing my background, experience, publications, and projects.
