@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "c609f0f3c41a5402",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bc82ba0e9a3db4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70303e9ab3ebbda6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b1c47d451a9f0d5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "27271bccc2c421e6",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "8e4614dc61595d42",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f166b0dc060c37a9",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "e22ec45b975066e3",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "7aef215809df66af",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "de34aa73347cf31a",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "README.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "548fe8f21ca0582d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "README.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c1e21709ca34e7b5",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "README.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "70303e9ab3ebbda6",
+  "lastOpenFiles": [
+    "static/uploads/Resume - Soroush Dianaty.pdf",
+    "static/js/pdf-js/web/viewer.js.map",
+    "static/js/pdf-js/web/viewer.js",
+    "static/js/pdf-js/web/viewer.html",
+    "static/js/pdf-js/web/viewer.css",
+    "static/js/pdf-js/web/standard_fonts/LiberationSans-Regular.ttf",
+    "static/js/pdf-js/web/standard_fonts/LiberationSans-Italic.ttf",
+    "static/js/pdf-js/web/standard_fonts/LiberationSans-BoldItalic.ttf",
+    "static/js/pdf-js/web/standard_fonts/LiberationSans-Bold.ttf",
+    "static/js/pdf-js/web/standard_fonts/LICENSE_LIBERATION",
+    "static/js/pdf-js/web/standard_fonts/LICENSE_FOXIT",
+    "static/js/pdf-js/web/images/treeitem-expanded.svg",
+    "static/js/pdf-js/web/images/treeitem-collapsed.svg",
+    "static/js/pdf-js/web/images/toolbarButton-zoomOut.svg",
+    "static/js/pdf-js/web/images/toolbarButton-zoomIn.svg",
+    "static/js/pdf-js/web/images/toolbarButton-viewThumbnail.svg",
+    "static/js/pdf-js/web/images/toolbarButton-viewOutline.svg",
+    "static/js/pdf-js/web/images/toolbarButton-viewLayers.svg",
+    "static/js/pdf-js/web/images/toolbarButton-viewAttachments.svg",
+    "static/js/pdf-js/web/images/toolbarButton-sidebarToggle.svg",
+    "static/js/pdf-js/web/images/toolbarButton-secondaryToolbarToggle.svg",
+    "content/skills/index.md",
+    "content/publication/articles/yaminifar-differential-2021/index.md",
+    "content/publication/articles/raiszadeh-novel-2023/index.md",
+    "content/publication/articles/khoshgoftar-some-saraii-reproductive-2023/index.md",
+    "content/publication/articles/dianaty-comparison-2023/index.md",
+    "content/publication/articles/darabi-stress-2021/index.md",
+    "content/publication/_index.md",
+    "content/projects.md",
+    "content/project/website/index.md",
+    "content/project/sr_ml/index.md",
+    "content/project/ppg_synth/index.md",
+    "content/project/ppg_mi/index.md",
+    "content/project/hai_ann/index.md",
+    "content/project/covid_cea/index.md",
+    "content/experience/index.md",
+    "content/contact/index.md",
+    "content/certificates/usern_researchweek/index.md",
+    "content/certificates/index.md",
+    "content/blog/test/index.md",
+    "content/blog/system/index.md",
+    "content/blog/_index.md",
+    "content/blog/TODO/index.md",
+    "content/authors/admin/_index.md",
+    "content/authors/_index.md",
+    "content/_index.md"
+  ]
+}
