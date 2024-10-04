@@ -134,6 +134,8 @@
   },
   "active": "70303e9ab3ebbda6",
   "lastOpenFiles": [
+    "/README.md",
+    "/content/BMI-knowledge-vault",
     "static/uploads/Resume - Soroush Dianaty.pdf",
     "static/js/pdf-js/web/viewer.js.map",
     "static/js/pdf-js/web/viewer.js",
@@ -143,8 +145,6 @@
     "static/js/pdf-js/web/standard_fonts/LiberationSans-Italic.ttf",
     "static/js/pdf-js/web/standard_fonts/LiberationSans-BoldItalic.ttf",
     "static/js/pdf-js/web/standard_fonts/LiberationSans-Bold.ttf",
-    "static/js/pdf-js/web/standard_fonts/LICENSE_LIBERATION",
-    "static/js/pdf-js/web/standard_fonts/LICENSE_FOXIT",
     "static/js/pdf-js/web/images/treeitem-expanded.svg",
     "static/js/pdf-js/web/images/treeitem-collapsed.svg",
     "static/js/pdf-js/web/images/toolbarButton-zoomOut.svg",
