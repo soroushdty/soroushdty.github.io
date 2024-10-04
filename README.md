@@ -6,4 +6,5 @@ Created using [Hugo](https://gohugo.io), an open-source static website generator
 - [x] WEBSITE REPO FROM OBSIDIAN LINUX AFTER VAULT RENAME ON DESKTOP
 - [x] After repo name change from Obsidian linux
 - [x] After repo name change from github web
-- [ ] from obsidian mobile
+- [x] from obsidian mobile
+- [ ] from obsidian desktop
