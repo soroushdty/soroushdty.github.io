@@ -344,4 +344,4 @@ awards:
   <br /> <br /> 
 Excited to bring my interdisciplinary expertise to a challenging PhD position, contributing to innovative research at the intersection of medical and computer sciences
 <br /> <br /> 
-I'm also excited to be able to develop my website from within Obsidian!
+I'm also excited to be able to develop my website from within Obsidian!!
