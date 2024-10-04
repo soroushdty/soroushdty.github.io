@@ -343,5 +343,3 @@ awards:
   - Resourceful and empathic learner, leveraging skills to address knowledge gaps, identifying requirements, and implementing them for independent and collaborative problem-solving
   <br /> <br /> 
 Excited to bring my interdisciplinary expertise to a challenging PhD position, contributing to innovative research at the intersection of medical and computer sciences
-<br /> <br /> 
-I'm also excited to be able to develop my website from within Obsidian!!
