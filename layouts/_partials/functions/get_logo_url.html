@@ -2,7 +2,7 @@
 
 {{ $logo := partialCached "functions/get_logo" (dict "constraint" "fit" "size" 192) "custom_logo_url" }}
 {{ if $logo.resource }}
-  {{ return $logo.resource.Permalink }}
+  {{ $logo.resource.Permalink }}
+{{ else }}
+  {{ (partial "functions/get_site_icon" 192).Permalink }}
 {{ end }}
-
-{{ return (partial "functions/get_site_icon" 192).Permalink }}
