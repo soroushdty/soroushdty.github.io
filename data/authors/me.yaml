@@ -27,7 +27,7 @@ links:
   - icon: "at-symbol"
     url: "mailto:sdianaty@asu.edu"
     label: "E-mail Me"
-  - icon: "brands/asu"
+  - icon: '\custom\asu.png'
     url: "https://search.asu.edu/profile/5071792"
   - icon: "brands/github"
     url: "https://github.com/soroushdty/"
