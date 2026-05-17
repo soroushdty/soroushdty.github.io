@@ -1,0 +1,8 @@
+{{/* Custom logo URL helper for JSON-LD and sharing metadata. */}}
+
+{{ $logo := partialCached "functions/get_logo" (dict "constraint" "fit" "size" 192) "custom_logo_url" }}
+{{ if $logo.resource }}
+  {{ return $logo.resource.Permalink }}
+{{ end }}
+
+{{ return (partial "functions/get_site_icon" 192).Permalink }}

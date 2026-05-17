@@ -1,0 +1,21 @@
+{{/*
+  Custom site logo resolver.
+  Uses assets/media/icons/custom/logo.png for the navbar, footer, and sharing metadata.
+*/}}
+
+{{ $constraint := .constraint | default "fit" }}
+{{ $size := .size | default 36 }}
+{{ $result := dict "resource" nil "type" "" "is_svg" false }}
+
+{{ $logo_png := resources.Get "media/icons/custom/logo.png" }}
+{{ if $logo_png }}
+  {{ $logo_processed := $logo_png }}
+  {{ if eq $constraint "max_height" }}
+    {{ $logo_processed = $logo_png.Resize (printf "x%d" $size) }}
+  {{ else }}
+    {{ $logo_processed = $logo_png.Fit (printf "%dx%d" $size $size) }}
+  {{ end }}
+  {{ $result = dict "resource" $logo_processed "type" "image/png" "is_svg" false }}
+{{ end }}
+
+{{ return $result }}
