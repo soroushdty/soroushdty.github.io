@@ -13,15 +13,14 @@ postnominals:
 status: null
 role: "PhD Student in Biomedical Informatics and Data Science"
 bio: "I am a PhD student at Arizona State University, with a medical background and a strong interest in applying data science, machine learning, and health informatics to biomedical problems. My work focuses on using computational methods to improve healthcare research, clinical decision-making, and population health. I also serve as a Teaching Associate, supporting education in biomedical and data science-related courses."
-affiliations:
-  - name: "Meta AI"
-    url: "https://ai.meta.com/"
+affiliations: []
 links:
   - icon: "at-symbol"
     url: "mailto:sdianaty@asu.edu"
     label: "E-mail Me"
-  - icon: "\\custom\\asu.png"
+  - icon: "/custom/asu.png"
     url: "https://search.asu.edu/profile/5071792"
+    label: "ASU Profile"
   - icon: "brands/github"
     url: "https://github.com/soroushdty/"
   - icon: "brands/linkedin"
