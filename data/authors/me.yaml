@@ -10,16 +10,9 @@ name:
   pronouns: "he/him"
 postnominals:
   - "M.D."
-status:
-  # icon: "☕️"
-role: "Senior AI Research Scientist"
-bio: "Soroush Dianaty is a Senior AI Research Scientist at Meta AI. His research
-
-  has been published in top conferences like NeurIPS and ICML, with over
-
-  10,000 citations. Soroush is passionate about pushing the boundaries of AI
-
-  while ensuring ethical development.\n"
+status: null
+role: "PhD Student in Biomedical Informatics and Data Science"
+bio: "I am a PhD student at Arizona State University, with a medical background and a strong interest in applying data science, machine learning, and health informatics to biomedical problems. My work focuses on using computational methods to improve healthcare research, clinical decision-making, and population health. I also serve as a Teaching Associate, supporting education in biomedical and data science-related courses."
 affiliations:
   - name: "Meta AI"
     url: "https://ai.meta.com/"
@@ -27,7 +20,7 @@ links:
   - icon: "at-symbol"
     url: "mailto:sdianaty@asu.edu"
     label: "E-mail Me"
-  - icon: '\custom\asu.png'
+  - icon: "\\custom\\asu.png"
     url: "https://search.asu.edu/profile/5071792"
   - icon: "brands/github"
     url: "https://github.com/soroushdty/"
@@ -46,7 +39,6 @@ education:
   - degree: "PhD Biomedical Informatics and Data Science"
     institution: "Arizona State University (ASU)"
     start: "2025-08-20"
-    # end: "2029-08-20"
     summary: "Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.\n"
     button:
       text: "Download dissertation"
