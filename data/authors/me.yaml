@@ -41,8 +41,8 @@ education:
     institution: "Arizona State University"
     start: "Aug 2025"
     button:
-      text: "Download dissertation"
-      url: "/resume.pdf"
+      text: "Download CV"
+      url: "/cv.pdf"
       icon: "hero/arrow-down-tray"
   - degree: "Doctor of Medicine (M.D.)"
     institution: "Tehran Medical Branch, IAU"
