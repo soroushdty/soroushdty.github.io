@@ -42,7 +42,7 @@ education:
     start: "Aug 2025"
     button:
       text: "Download CV"
-      url: "/cv.pdf"
+      url: "/uploads/cv.pdf"
       icon: "hero/arrow-down-tray"
   - degree: "Doctor of Medicine (M.D.)"
     institution: "Tehran Medical Branch, IAU"
@@ -52,7 +52,7 @@ experience:
   - role: "Teaching Associate"
     org: "Arizona State University"
     start: "Aug 2025"
-    summary: "•\tSupported instruction for BMI 201 (Introduction to Clinical Informatics) and BMI 601 (Health Informatics) through assignment development, discussion facilitation, grading, and student guidance.\n"
+    summary: "Supported instruction for BMI 201 (Introduction to Clinical Informatics) and BMI 601 (Health Informatics) through assignment development, discussion facilitation, grading, and student guidance.\n"
     button:
       text: "View portfolio"
       url: "/"
@@ -86,12 +86,7 @@ languages:
   - name: "Persian"
     level: 4
     label: "Native"
-awards:
-  - title: "Best Paper Award"
-    awarder: "NeurIPS"
-    date: "2022-12-01"
-    summary: "Awarded for groundbreaking work on efficient training of large models."
-    icon: "hero/trophy"
+awards: []
 ids:
   orcid: "0000-0001-5674-8999"
   google_scholar: "GxlqqGoAAAAJ"
