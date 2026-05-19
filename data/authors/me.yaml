@@ -14,7 +14,7 @@ status: null
 role: "Biomedical Informatics Researcher"
 bio: "Physician-scientist and PhD student, focused on the evaluation and real-world implementation of clinical AI systems. My research centers on trustworthy clinical LLMs, including hallucination detection, evidence grounding, contextual reliability, and AI safety in healthcare settings. I develop evaluation frameworks and computational methods to determine whether clinical AI systems are scientifically grounded, clinically reliable, and suitable for deployment in real-world practice."
 affiliations:
-  - name: "Arizona State University (ASU)"
+  - name: "Arizona State University"
     url: "https://asu.edu"
 links:
   - icon: "at-symbol"
@@ -37,8 +37,8 @@ interests:
   - "Clinical LLMs"
   - "Trustworthy Clinical AI"
 education:
-  - degree: "PhD inBiomedical Informatics and Data Science"
-    institution: "ASU"
+  - degree: "PhD, Biomedical Informatics and Data Science"
+    institution: "Arizona State University"
     start: "Aug 2025"
     button:
       text: "Download dissertation"
@@ -50,7 +50,7 @@ education:
     end: "Jun 2024"
 experience:
   - role: "Teaching Associate"
-    org: "ASU"
+    org: "Arizona State University"
     start: "Aug 2025"
     summary: "•	Supported instruction for BMI 201 (Introduction to Clinical Informatics) and BMI 601 (Health Informatics) through assignment development, discussion facilitation, grading, and student guidance.\n"
     button:
