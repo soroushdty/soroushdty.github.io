@@ -2,14 +2,14 @@ schema: "hugoblox/author/v1"
 slug: "me"
 is_owner: true
 name:
-  display: "Soroush Dianaty"
+  display: "Dr. Soroush Dianaty"
   given: "Soroush"
   family: "Dianaty"
   alternate: ""
   pronunciation: ""
   pronouns: ""
 postnominals:
-  - "M.D."
+  - "MD"
 status: null
 role: "Biomedical Informatics Researcher"
 bio: "Physician-scientist and PhD student, focused on the evaluation and real-world implementation of clinical AI systems. My research centers on trustworthy clinical LLMs, including hallucination detection, evidence grounding, contextual reliability, and AI safety in healthcare settings. I develop evaluation frameworks and computational methods to determine whether clinical AI systems are scientifically grounded, clinically reliable, and suitable for deployment in real-world practice."
@@ -52,7 +52,7 @@ experience:
   - role: "Teaching Associate"
     org: "Arizona State University"
     start: "Aug 2025"
-    summary: "•	Supported instruction for BMI 201 (Introduction to Clinical Informatics) and BMI 601 (Health Informatics) through assignment development, discussion facilitation, grading, and student guidance.\n"
+    summary: "•\tSupported instruction for BMI 201 (Introduction to Clinical Informatics) and BMI 601 (Health Informatics) through assignment development, discussion facilitation, grading, and student guidance.\n"
     button:
       text: "View portfolio"
       url: "/"
@@ -92,3 +92,8 @@ awards:
     date: "2022-12-01"
     summary: "Awarded for groundbreaking work on efficient training of large models."
     icon: "hero/trophy"
+ids:
+  orcid: "0000-0001-5674-8999"
+  google_scholar: "GxlqqGoAAAAJ"
+  research_gate: "Soroush-Dianaty"
+  scopus: "57970917500"
