@@ -12,7 +12,7 @@ tags:
   - Claude
   - Fable5
 cover:
-  image: ""
+  image: "Anatomy_of_a_Shutdown.png"
   position:
     x: 50
     y: 40
@@ -29,8 +29,6 @@ cover:
 image:
   caption: ""
 ---
-
-
 ![Anatomy of a Shutdown: The Fable 5 Suspension](Anatomy_of_a_Shutdown.png)
 
 At 5:21 PM ET on June 12, Anthropic received a U.S. government export-control directive requiring it to suspend access to Fable 5 and Mythos 5 for foreign nationals, including foreign-national Anthropic employees. Because Anthropic could not reliably enforce that restriction at the required level, both models were taken offline for all customers globally. Other Anthropic models remained available.
