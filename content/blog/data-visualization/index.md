@@ -1,13 +1,16 @@
 ---
-title: SAMPLE BLOG POST 1
-summary: Use popular tools such as HuggingFace, Plotly, Mermaid, and data frames.
-date: 2023-10-25
+title: Anthropic’s Fable Suspension Is a Preview of Every Health-Tech AI Team’s
+  Worst Nightmare
+summary: Anthropic’s Fable 5 suspension shows why health-tech AI needs due
+  process, lifecycle governance, validated fallbacks, and risk-based
+  regulation—not opaque shutdowns over imperfect models.
+date: 2026-06-13T22:00:00.000Z
 authors:
   - me
 tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
+  - Anthropic
+  - Claude
+  - Fable5
 cover:
   image: https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560
   position:
@@ -25,6 +28,7 @@ cover:
     name: ✨
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com)"
+
 ---
 
 Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
