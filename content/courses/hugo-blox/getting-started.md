@@ -4,7 +4,6 @@ date: 2024-02-17
 weight: 1
 type: docs
 ---
-
 ## Quick Start from Template
 
 {{% steps %}}
@@ -27,9 +26,9 @@ Your site will automatically publish ~1-5 minutes after you commit (save) change
 
 {{% /steps %}}
 
-## Next
-
 Let's customize your new site:
+
+## Next
 
 {{< cards >}}
   {{< card url="../guide/project-structure" title="Project Structure" icon="document-duplicate" >}}
