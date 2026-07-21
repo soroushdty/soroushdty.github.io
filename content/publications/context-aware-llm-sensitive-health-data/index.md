@@ -2,9 +2,7 @@
 title: "Early Evidence for Context-Aware Large Language Models (LLMs) in Sensitive Health Data Classification"
 authors:
   - me
-  - M. Kaiser
-  - Anita Murcko
-  - Adela Grando
+publication_authors: "Dianaty S, Kaiser M, Murcko A, Grando A"
 date: "2026-05-30T00:00:00Z"
 publication_types: ["paper-conference"]
 publication: "In *AcademyHealth Annual Research Meeting 2026*, Seattle, WA"

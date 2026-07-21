@@ -1,6 +1,6 @@
 # soroushdianaty.com
 
-Personal academic website of **Dr. Soroush Dianaty, MD** — PhD student in Biomedical Informatics and Data
+Personal academic website of **Soroush Dianaty, MD** — PhD student in Biomedical Informatics and Data
 Science at Arizona State University. Research on trustworthy clinical LLMs: hallucination detection, evidence
 grounding, and responsible AI evaluation.
 

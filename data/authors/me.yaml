@@ -2,7 +2,7 @@ schema: "hugoblox/author/v1"
 slug: "me"
 is_owner: true
 name:
-  display: "Dr. Soroush Dianaty"
+  display: "Soroush Dianaty"
   given: "Soroush"
   family: "Dianaty"
   alternate: ""

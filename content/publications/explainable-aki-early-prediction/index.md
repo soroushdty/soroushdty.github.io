@@ -2,7 +2,7 @@
 title: "Explainable early prediction of acute kidney injury using first 24-hour physiologic and clinical data"
 authors:
   - me
-  - Shovito Barua Soumma
+publication_authors: "Dianaty S, Soumma SB"
 date: "2026-05-05T00:00:00Z"
 publication_types: ["paper-conference"]
 publication: "In *2nd Arizona Digital Health Symposium*, Phoenix, AZ"

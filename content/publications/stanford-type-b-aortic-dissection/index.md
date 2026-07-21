@@ -1,10 +1,8 @@
 ---
 title: "Novel repair of acute Stanford type B aortic dissection using combined endovascular graft and transfemoral replacement of vascular plug"
 authors:
-  - Mohammadreza Raiszadeh
-  - Azime Khosronejad
   - me
-  - Batool Ghorbani Yekta
+publication_authors: "Raiszadeh M, Khosronejad A, Dianaty S, Ghorbani Yekta B"
 date: "2023-12-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "*Catheterization and Cardiovascular Interventions*, 102(7), 1287–1290"

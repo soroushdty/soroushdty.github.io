@@ -2,6 +2,7 @@
 title: "Chapters in Practical Guide to Psychiatric Medications (2nd edition)"
 authors:
   - me
+publication_authors: "Dianaty S"
 date: "2022-01-01T00:00:00Z"
 publication_types: ["chapter"]
 publication: "In *Practical Guide to Psychiatric Medications*, 2nd ed., MTP Psychiatry"

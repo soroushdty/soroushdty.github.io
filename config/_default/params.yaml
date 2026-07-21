@@ -1,7 +1,7 @@
 hugoblox:
   schema: "2.0"
   identity:
-    name: Dr. Soroush Dianaty
+    name: Soroush Dianaty
     type: person
     tagline: Physician-scientist and PhD researcher | Biomedical Informatics and Data Science
     description: My research at Arizona State University (ASU) focuses on clinical LLM hallucination detection, evidence grounding, and responsible AI evaluation.

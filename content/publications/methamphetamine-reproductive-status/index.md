@@ -1,11 +1,8 @@
 ---
 title: "Reproductive status of male rat offspring following exposure to methamphetamine during intrauterine life: An experimental study"
 authors:
-  - Zahra Khoshgoftar Some Saraii
   - me
-  - Fatemeh Rouhollah
-  - Nayereh Zare
-  - Batool Ghorbani Yekta
+publication_authors: "Khoshgoftar Some Saraii Z, Dianaty S, Rouhollah F, Zare N, Ghorbani Yekta B"
 date: "2023-03-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "*International Journal of Reproductive BioMedicine*, 21(2), 175–184"

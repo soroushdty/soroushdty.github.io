@@ -2,9 +2,7 @@
 title: "Comparison of outcomes and costs of extracorporeal blood purification therapies in critically ill COVID-19 patients"
 authors:
   - me
-  - Sanaz Khodadadi
-  - Rojina Alimoghaddam
-  - Abasat Mirzaei
+publication_authors: "Dianaty S, Khodadadi S, Alimoghaddam R, Mirzaei A"
 date: "2023-06-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "*Therapeutic Apheresis and Dialysis*, 27(3), 505–516"

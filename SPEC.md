@@ -138,6 +138,30 @@ The HugoBlox sales README is the public face of one of your three public repos.
 **Fix:** set `true`. CI already checks out with `fetch-depth: 0`, so git history is available at build time.
 **Acceptance:** build succeeds; `og:updated_time` reflects commit dates.
 
+## [x] BUG-20 — Name displayed as "Dr. Soroush Dianaty"
+**Severity:** medium · **Files:** `data/authors/me.yaml`, `config/_default/params.yaml`
+
+The honorific was baked into both the author display name and the site identity, so every page title,
+byline, and `og:site_name` read "Dr. Soroush Dianaty".
+
+**Fix:** display name is now "Soroush Dianaty"; the `postnominals: [MD]` entry still renders where the theme
+supports it.
+**Acceptance:** zero occurrences of "Dr. Soroush" in `public/`; `<title>` reads "Soroush Dianaty".
+
+## [x] BUG-21 — Co-authors rendered as authors of the website page
+**Severity:** high · **Files:** `content/publications/*/index.md`, `layouts/_partials/views/citation.html`
+
+The theme feeds one `authors:` field into both the page byline and the bibliographic citation, so each
+publication page was bylined with the paper's full author list — presenting co-authors as authors of the
+site page introducing the paper, which they are not.
+
+**Fix:** `authors:` is now `me` alone on all 11 pages (byline and author card = the person who wrote the
+page). The paper's author list moved to a new `publication_authors` string, consumed by a local override of
+the `citation` view so citations stay bibliographically correct. Co-author names now appear only in the
+citation on `/publications`, never as a page byline.
+**Acceptance:** no co-author surname appears on any single publication page; the `/publications` citation
+still lists the full author order.
+
 ## [~] BUG-16 — Missing logo asset *(needs your input)*
 **Severity:** medium · **Files:** `assets/media/icons/custom/logo.png`
 

@@ -1,15 +1,8 @@
 ---
 title: "Assessing the Effectiveness and Scalability of Fast Healthcare Interoperability Resource-Based Granular Data Segmentation Technology"
 authors:
-  - Preston Lee
-  - Abhishek Singh Dhadwal
-  - M. Kaiser
   - me
-  - Eric Lott
-  - Gagandeep Singh
-  - Darwyn Chern
-  - Jason A. Walonoski
-  - Adela Grando
+publication_authors: "Lee P, Dhadwal AS, Kaiser M, Dianaty S, Lott E, Singh G, Chern D, Walonoski JA, Grando A"
 date: "2026-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "*Applied Clinical Informatics*"

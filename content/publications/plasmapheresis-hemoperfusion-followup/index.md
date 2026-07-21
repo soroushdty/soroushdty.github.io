@@ -2,9 +2,7 @@
 title: "Cost-effectiveness of plasmapheresis and hemoperfusion in COVID-19 survivors: A six-month follow-up analysis after hospital discharge"
 authors:
   - me
-  - Farshid Gholami
-  - Hamid Reza Gholamrezaie
-  - Abasat Mirzaei
+publication_authors: "Dianaty S, Gholami F, Gholamrezaie HR, Mirzaei A"
 date: "2025-01-14T00:00:00Z"
 publication_types: ["article-journal"]
 publication: "*Therapeutic Apheresis and Dialysis*"
