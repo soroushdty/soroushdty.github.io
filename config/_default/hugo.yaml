@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: 'Soroush Dianaty Personal Website'
 # Website URL
-baseURL: 'https://www.soroushdianaty.com/'
+baseURL: 'https://soroushdianaty.com/'
 
 ############################
 ## LANGUAGE
@@ -33,7 +33,7 @@ cascade:
 
 build:
   writeStats: true
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 30
 pagination:
   pagerSize: 10

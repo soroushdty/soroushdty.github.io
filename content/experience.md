@@ -30,4 +30,27 @@ sections:
     content:
       title: Languages
       username: me
+  - block: markdown
+    content:
+      title: Licenses, Certifications & Service
+      text: |-
+        **Licenses and certifications**
+
+        - Medical License — Medical Council of Iran (IRIMC), Sep 2024
+        - IRB – Biomedical Research — CITI Program, Feb 2026
+        - Human Subjects Research — CITI Program, Sep 2023
+
+        **Professional memberships**
+
+        - American Medical Informatics Association (AMIA) — Dec 2025 – present
+        - ASU College of Health Solutions, Council of Inclusive Excellence — Oct 2025 – present
+        - USERN Executive Committee — Mar 2022 – Mar 2023
+        - IAUTMU Student Research Committee — Feb 2018 – Jun 2024
+
+        **Peer review**
+
+        - *Frontiers in Pharmacology* — 1 manuscript
+        - *Italian Journal of Gynaecology & Obstetrics* — 2 manuscripts
+    design:
+      columns: '1'
 ---

@@ -11,7 +11,7 @@ name:
 postnominals:
   - "MD"
 status: null
-role: "Biomedical Informatics Researcher"
+role: "PhD Student, Biomedical Informatics & Data Science"
 bio: "Physician-scientist and PhD student, focused on the evaluation and real-world implementation of clinical AI systems. My research centers on trustworthy clinical LLMs, including hallucination detection, evidence grounding, contextual reliability, and AI safety in healthcare settings. I develop evaluation frameworks and computational methods to determine whether clinical AI systems are scientifically grounded, clinically reliable, and suitable for deployment in real-world practice."
 affiliations:
   - name: "Arizona State University"
@@ -45,40 +45,80 @@ education:
       url: "/uploads/cv.pdf"
       icon: "hero/arrow-down-tray"
   - degree: "Doctor of Medicine (M.D.)"
-    institution: "Tehran Medical Branch, IAU"
+    institution: "Tehran Medical Sciences Branch, Islamic Azad University (IAUTMU)"
     start: "Sep 2016"
     end: "Jun 2024"
+    summary: "Thesis: Cost-effectiveness of plasmapheresis vs hemoperfusion in critically ill COVID-19 patients.\n"
 experience:
-  - role: "Teaching Associate"
-    org: "Arizona State University"
+  - role: "Graduate Teaching Associate"
+    org: "College of Health Solutions, Arizona State University"
     start: "Aug 2025"
     summary: "Supported instruction for BMI 201 (Introduction to Clinical Informatics) and BMI 601 (Health Informatics) through assignment development, discussion facilitation, grading, and student guidance.\n"
-    button:
-      text: "View portfolio"
-      url: "/"
-      icon: "hero/arrow-down-tray"
+  - role: "Graduate Research Assistant — Substance Use Health Record Sharing (SHARES)"
+    org: "Arizona State University · Funded by NIDA · PI: Dr. Adela Grando"
+    start: "Oct 2024"
+    summary: "Developed and validated EHR segmentation rules supporting automated substance-use-disorder record sharing, applying clinical domain knowledge to improve the accuracy and interpretability of structured health data.\n"
+  - role: "Graduate Research Assistant — Online Contraception Decision Aid"
+    org: "Arizona State University · Funded by AHRQ · PI: Dr. Dongwen Wang"
+    start: "Nov 2024"
+    summary: "Developed patient-facing educational content and backend scoring logic for an online contraception decision aid tailored to transgender and gender-nonconforming users assigned female at birth.\n"
   - role: "Family Physician"
-    org: "Qazvin University of Medical Sciences"
+    org: "Qeshlaq Rural Health Center, Abyek, Qazvin, Iran"
     start: "Oct 2024"
     end: "Jul 2025"
-    summary: "Provided primary and preventive healthcare to more than 7,000 individuals across 17 villages, supervising five satellite health centers and delivering care focused on chronic disease management, mental health, prenatal care, and adolescent health.\n"
+    summary: "Delivered primary and preventive care to a rural population of 7,500+ across 17 villages and five satellite health centers, managing chronic disease, prenatal, adolescent, and mental health care within Iran's national EHR system.\n"
+  - role: "Researcher — Computational Medicine Center"
+    org: "K. N. Toosi University of Technology, Tehran, Iran"
+    start: "Aug 2023"
+    end: "May 2024"
+    summary: "Led interdisciplinary development of neural networks for cardiovascular disease detection from PPG signals, and built Python pipelines for acquisition, preprocessing, and analysis of EHR-linked biosignal data.\n"
+  - role: "Executive Committee Member"
+    org: "Universal Scientific Education and Research Network (USERN), Tehran University of Medical Sciences"
+    start: "Mar 2022"
+    end: "Mar 2023"
+    summary: "Coordinated logistics and research content development for USERN events, and automated certificate generation in Python, reducing processing time by 60%.\n"
+  - role: "Research Assistant — Neuroscience Research Center"
+    org: "Department of Physiology, IAUTMU, Tehran, Iran"
+    start: "May 2018"
+    end: "Jan 2020"
+    summary: "Conducted data analysis and visualization in support of neuropharmacology research.\n"
 skills:
-  - name: "Technical Skills"
+  - name: "Machine Learning & AI"
+    items:
+      - label: "Deep Learning & Classical ML"
+        level: 5
+      - label: "LLM Fine-Tuning (LoRA, PEFT)"
+        level: 4
+      - label: "Prompt & Context Engineering"
+        level: 5
+      - label: "LLM Application Development"
+        level: 4
+  - name: "Programming & Data"
     items:
       - label: "Python"
         level: 5
-      - label: "Machine Learning"
-        level: 5
-      - label: "Cloud Computing"
+      - label: "SQL"
         level: 4
-  - name: "Research & Communication"
+      - label: "SAS"
+        level: 4
+      - label: "Linux & Git"
+        level: 4
+  - name: "Health Data & Interoperability"
     items:
-      - label: "Academic Writing"
+      - label: "FHIR"
+        level: 4
+      - label: "SNOMED-CT, LOINC, ICD"
+        level: 4
+      - label: "EHR Systems (Epic)"
+        level: 4
+  - name: "Research Methods"
+    items:
+      - label: "Regression Modeling"
         level: 5
-      - label: "Conference Presentations"
+      - label: "Survival Analysis"
         level: 4
-      - label: "Grant Proposals"
-        level: 4
+      - label: "Cost-effectiveness Analysis"
+        level: 5
 languages:
   - name: "English"
     level: 4
@@ -86,7 +126,18 @@ languages:
   - name: "Persian"
     level: 4
     label: "Native"
-awards: []
+awards:
+  - title: "First Place, Arizona BioChallenge"
+    awarder: "Nucleate Arizona"
+    date: "2025-10-01"
+    summary: "First place and $2,500 award in the Nucleate Arizona BioChallenge.\n"
+  - title: "Graduate Fellowship"
+    awarder: "Graduate College, Arizona State University"
+    date: "2025-08-01"
+    summary: "Competitive $4,845 fellowship for the 2025–2026 academic year.\n"
+  - title: "Active Member Award"
+    awarder: "Student Research Committee, IAUTMU"
+    date: "2018-10-01"
 ids:
   orcid: "0000-0001-5674-8999"
   google_scholar: "GxlqqGoAAAAJ"
