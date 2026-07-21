@@ -20,5 +20,5 @@ main:
     url: /blog
     weight: 5
   - name: News
-    url: /news
+    url: /#news
     weight: 6
