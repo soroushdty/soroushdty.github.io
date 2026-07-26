@@ -26,7 +26,7 @@ sections:
               </p>
               <div class="flex flex-wrap justify-center md:justify-start gap-3">
                 <a href="/bio/" class="inline-flex items-center px-5 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-semibold text-sm rounded-xl shadow-sm transition-all duration-200">
-                  Explore Bio & Education →
+                  About Me →
                 </a>
                 <a href="/publications" class="inline-flex items-center px-5 py-2.5 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold text-sm rounded-xl border border-gray-200 dark:border-gray-700 transition-all duration-200">
                   View Publications
