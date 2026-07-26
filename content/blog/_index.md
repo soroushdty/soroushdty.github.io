@@ -1,5 +1,5 @@
 ---
-title: "Writing & Research Notes"
+title: "Blog & Research Notes"
 summary: "Essays, methodology guides, and research notes on evaluating clinical LLMs, evidence grounding, and FHIR interoperability."
 view: article-grid
 aliases:

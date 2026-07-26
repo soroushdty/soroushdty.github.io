@@ -9,8 +9,8 @@ main:
   - name: Publications
     url: /publications/
     weight: 3
-  - name: Writing
-    url: /writing/
+  - name: Blog
+    url: /blog/
     weight: 4
   - name: Teaching
     url: /teaching/
