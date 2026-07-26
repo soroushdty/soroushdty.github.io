@@ -1,6 +1,7 @@
 <meta name="google-site-verification" content="degw1NelRqhQOlYxZuhvKboMyxZK-7mh_6A-BgHz4NU">
-<meta name="keywords" content="Soroush Dianaty, سروش دیانتی, Soroush Dianaty M.D., Biomedical Informatics, Clinical LLMs, Arizona State University">
+<meta name="keywords" content="Soroush Dianaty, سروش دیانتی, Soroush Dianaty M.D., Biomedical Informatics, Clinical LLMs, Arizona State University, Trustworthy AI, Evidence Grounding, FHIR">
 <meta name="author" content="Soroush Dianaty (سروش دیانتی)">
+
 {{ if .IsHome }}
 <meta property="twitter:card" content="summary_large_image">
 <meta property="og:image" content="{{ "media/sharing_card.png" | absURL }}">
@@ -12,6 +13,16 @@
 {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://soroushdianaty.com/#website",
+      "url": "https://soroushdianaty.com/",
+      "name": "Soroush Dianaty, M.D. — Trustworthy Clinical AI & Biomedical Informatics",
+      "description": "Physician-scientist and Biomedical Informatics PhD researcher at Arizona State University studying trustworthy clinical LLM evaluation, evidence grounding, and FHIR data segmentation.",
+      "publisher": {
+        "@id": "https://soroushdianaty.com/#person"
+      }
+    },
     {
       "@type": "ProfilePage",
       "@id": "https://soroushdianaty.com/#profilepage",
@@ -56,6 +67,27 @@
         "https://github.com/soroushdty/",
         "https://www.linkedin.com/in/soroush-dianaty/"
       ]
+    }
+  ]
+}
+</script>
+{{ else }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://soroushdianaty.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
     }
   ]
 }
