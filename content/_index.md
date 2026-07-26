@@ -1,5 +1,5 @@
 ---
-title: "Dr. Soroush Dianaty, M.D."
+title: ""
 summary: "Physician-Scientist & PhD Student in Biomedical Informatics & Data Science at Arizona State University."
 date: "2026-07-26"
 type: "landing"
