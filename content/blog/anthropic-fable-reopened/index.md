@@ -57,14 +57,14 @@ sequenceDiagram
     participant BIS as US Dept of Commerce (BIS)
     participant Res as Security and AWS Researchers
 
-    Note over Ant,Pub: June 9, 2026: Launch of Fable 5 and Mythos 5
-    Res->>BIS: June 12: Report jailbreak enabling vuln exploitation
-    BIS->>Ant: June 12 (5:21 PM): Export directive (Gated by Nationality)
-    Ant-->>Pub: June 12 (Night): Global API Suspension (Lack of real-time KYC)
-    Note over Ant,BIS: June 13-30: Technical Remediation and Classifier Hardening
+    Note over Pub,Ant: June 9, 2026 - Launch of Fable 5 and Mythos 5
+    Res->>BIS: June 12 - Report jailbreak enabling vuln exploitation
+    BIS->>Ant: June 12 at 5:21 PM - Export directive gated by nationality
+    Ant-->>Pub: June 12 Night - Global API suspension for lack of real-time KYC
+    Note over Ant,BIS: June 13 to 30 - Technical remediation and classifier hardening
     Ant->>BIS: Submit hardened classifiers and Project Glasswing framework
-    BIS->>Ant: July 1: Export control order officially rescinded
-    Ant->>Pub: July 1: Fable 5 restored; Mythos 5 restricted to Project Glasswing
+    BIS->>Ant: July 1 - Export control order officially rescinded
+    Ant->>Pub: July 1 - Fable 5 restored; Mythos 5 restricted to Project Glasswing
 ```
 
 ### Key Milestones in the Resolution
