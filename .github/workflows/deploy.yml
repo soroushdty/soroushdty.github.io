@@ -1,9 +1,9 @@
 name: Deploy website to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
+  # Trigger the workflow every time you push to main or fix/site-audit-remediation
   push:
-    branches: ['main']
+    branches: ['main', 'fix/site-audit-remediation']
   # Allows you to run this workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
