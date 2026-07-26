@@ -1,0 +1,39 @@
+{{/* HugoBlox Resume Languages block override — text-only display (no circles/percentages) */}}
+{{ $page := .page }}
+{{ $block := .block }}
+{{ $author_id := $block.content.username | default "me" }}
+{{ $author := site.GetPage (printf "/authors/%s" $author_id) }}
+{{ if not $author.Title }}
+  {{ $author = site.GetPage (printf "authors/%s" $author_id) }}
+{{ end }}
+
+{{ $languages := $author.Params.languages }}
+{{ if not $languages }}
+  {{ $me := site.Data.authors.me }}
+  {{ if $me }}
+    {{ $languages = $me.languages }}
+  {{ end }}
+{{ end }}
+
+<section id="section-resume-languages" class="relative isolate hbb-section blox-_">
+  <div class="home-section-bg"></div>
+  <div class="container mx-auto px-4 py-8">
+    {{ if $block.content.title }}
+      <h2 class="text-2xl font-bold mb-6 text-gray-900 dark:text-white">{{ $block.content.title | markdownify }}</h2>
+    {{ end }}
+
+    <div class="flex flex-wrap gap-4 text-base">
+      {{ range $languages }}
+        <div class="flex items-center space-x-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg">
+          <span class="font-semibold text-gray-900 dark:text-gray-100">{{ .name }}</span>
+          {{ if .label }}
+            <span class="text-gray-500 dark:text-gray-400">—</span>
+            <span class="text-gray-700 dark:text-gray-300">{{ .label }}</span>
+          {{ end }}
+        </div>
+      {{ else }}
+        <p class="text-gray-600 dark:text-gray-400">English (Fluent), Persian (Native)</p>
+      {{ end }}
+    </div>
+  </div>
+</section>
