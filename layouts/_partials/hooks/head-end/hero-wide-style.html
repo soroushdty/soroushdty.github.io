@@ -1,0 +1,16 @@
+<style>
+/* Override HugoBlox max-w-prose constraint on homepage hero & research sections */
+#hero .max-w-prose,
+#hero .prose,
+#research-focus .max-w-prose,
+#research-focus .prose {
+  max-width: 76rem !important; /* 1216px max-width */
+  width: 100% !important;
+}
+
+/* Accessible focus ring for buttons & links */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--color-primary-500, #3b82f6);
+  outline-offset: 2px;
+}
+</style>
