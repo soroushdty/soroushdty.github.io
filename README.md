@@ -1,49 +1,63 @@
 # soroushdianaty.com
 
-Personal academic website of **Soroush Dianaty, MD** — PhD student in Biomedical Informatics and Data
-Science at Arizona State University. Research on trustworthy clinical LLMs: hallucination detection, evidence
-grounding, and responsible AI evaluation.
+Personal academic website of **Dr. Soroush Dianaty, M.D.** — PhD student in Biomedical Informatics & Data Science at Arizona State University (ASU). Research focuses on trustworthy clinical LLMs: hallucination detection, evidence grounding, FHIR granular data segmentation, and responsible AI evaluation in healthcare.
 
 Live at **[soroushdianaty.com](https://soroushdianaty.com)**.
 
-## Stack
+---
 
-Built with [Hugo](https://gohugo.io) (extended, version pinned in `hugoblox.yaml`) on the
-[HugoBlox](https://github.com/HugoBlox/kit) Academic CV template. The theme is pulled in as a Hugo Module —
-see `go.mod` and `config/_default/module.yaml` — so this repo holds content and configuration, not theme code.
-Search is [Pagefind](https://pagefind.app); styling is Tailwind CSS v4.
+## 🌟 Architecture & Features
 
-## Develop
+- **M.D. Education & Thesis Portfolio:** Dedicated page at [`/education/md/`](https://soroushdianaty.com/education/md/) detailing clinical rotations, medical degree, and apheresis cost-effectiveness thesis.
+- **Dedicated Portfolio Sections:** Standalone deep-dive pages for [Family Physician Service](https://soroushdianaty.com/experience/family-physician/), [USERN Executive Committee](https://soroushdianaty.com/experience/usern/), and [Neuroscience Research Assistantship](https://soroushdianaty.com/experience/neuroscience-research-assistant/).
+- **Open-Source Tools:** Featured research repos including **[EviTrace](https://soroushdianaty.com/projects/evitrace/)** (interactive clinical LLM evidence pipeline visualizer & JSON-LD schema) and **[project-lullaby](https://soroushdianaty.com/projects/project-lullaby/)**.
+- **Teaching Portfolio:** Detailed course outlines for **BMI 201** and **BMI 601** at [`/teaching/`](https://soroushdianaty.com/teaching/).
+- **Academic SEO:** Highwire Press metadata tags (`citation_title`, `citation_author`, `citation_journal_title`), Dublin Core, OpenGraph social sharing card (`sharing_card.png`), and custom Health AI emblem tab bar icon.
+
+---
+
+## 🛠️ Stack & Dependencies
+
+- **Generator:** [Hugo Extended 0.164.0](https://gohugo.io)
+- **Theme Framework:** [HugoBlox Kit 0.12.0](https://github.com/HugoBlox/kit) (Academic CV module)
+- **Styling:** Tailwind CSS v4
+- **Search Indexing:** [Pagefind](https://pagefind.app)
+- **Package Manager:** `pnpm` 10 (`node-linker=hoisted`)
+
+---
+
+## 🚀 Local Development
 
 ```bash
-pnpm install     # requires pnpm
-pnpm dev         # http://localhost:1313
-pnpm build       # production build + search index into public/
+pnpm install     # Install node dependencies
+pnpm dev         # Start local Hugo server with live reload -> http://localhost:1313
+pnpm build       # Production build + pagefind search index into public/
+pnpm pagefind    # Regenerate search index only
 ```
 
-## Deploy
+---
 
-Pushing to `main` builds and publishes to GitHub Pages via `.github/workflows/deploy.yml`. Pull requests are
-built by `build.yml` as validation.
+## 📦 Repository Layout
 
-## Publications
-
-`publications.bib` in the repo root is the source of truth. Pushing a change to it triggers
-`.github/workflows/import-publications.yml`, which converts entries to pages under `content/publications/`
-and opens a pull request.
-
-## Layout
-
-| Path | Contents |
+| Directory / File | Description |
 |---|---|
-| `content/` | All pages — landing pages (`_index.md`, `experience.md`) and sections (`blog`, `publications`, `projects`, `events`) |
-| `data/authors/me.yaml` | Bio, education, experience, skills, awards, and links — the source for every résumé block |
-| `config/_default/` | Hugo config, theme parameters, navigation, module imports |
-| `assets/media/` | Hugo-processed images and custom icons |
-| `static/` | Files copied verbatim, including the CV PDF |
-| `drafts/` | Unpublished work-in-progress — outside `content/`, so Hugo never builds it |
+| `content/` | Site content pages: homepage (`_index.md`), `bio`, `education/md`, `experience/`, `projects/`, `publications/`, `blog/`, `teaching/`, `events/` |
+| `data/authors/me.yaml` | Single source of truth for bio, avatar, education, experience, skills, awards, and social links |
+| `publications.bib` | BibTeX source of truth for publications; triggers automated GitHub Actions import workflow |
+| `config/_default/` | Site configuration (`hugo.yaml`), theme parameters (`params.yaml`), navigation (`menus.yaml`), modules |
+| `layouts/` | Local theme partials and shortcode overrides |
+| `assets/media/` | Processed graphics, custom icons (`icons/custom/logo.png`), and social preview card (`sharing_card.png`) |
+| `static/` | Static assets served verbatim (`CNAME`, `.nojekyll`, `favicon.ico`, `uploads/cv.pdf`, `uploads/papers/`) |
+| `drafts/` | Work-in-progress content outside `content/` to prevent unwanted publishing |
 
-## License
+---
 
-Site content © Soroush Dianaty. Template released under the [MIT License](LICENSE.md);
-HugoBlox is a trademark of Lore Labs.
+## 🚢 Deployment
+
+Pushing to `main` triggers `.github/workflows/deploy.yml` which builds the Hugo site with Pagefind and publishes to GitHub Pages (`build_type: workflow`) mapped to custom domain `soroushdianaty.com`.
+
+---
+
+## 📄 License
+
+Site content © Dr. Soroush Dianaty, M.D. Theme template released under the [MIT License](LICENSE.md); HugoBlox is a trademark of Lore Labs.
