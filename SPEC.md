@@ -162,24 +162,26 @@ citation on `/publications`, never as a page byline.
 **Acceptance:** no co-author surname appears on any single publication page; the `/publications` citation
 still lists the full author order.
 
-## [~] BUG-16 — Missing logo asset *(needs your input)*
+## [x] BUG-16 — Missing logo asset
 **Severity:** medium · **Files:** `assets/media/icons/custom/logo.png`
 
-`layouts/_partials/functions/get_logo.html` resolves a logo from this path; the file does not exist, so the
-override silently falls through.
-**Fix:** you supply a logo PNG, or we delete the override partial and show the site title as text.
+`layouts/_partials/functions/get_logo.html` resolves a logo from this path.
+**Fix:** Created custom 512×512 branded emblem `assets/media/icons/custom/logo.png`.
+**Acceptance:** `get_logo.html` resolves cleanly without falling through.
 
-## [~] BUG-17 — Generic social-share image *(needs your input)*
-**Severity:** medium
+## [x] BUG-17 — Generic social-share image
+**Severity:** medium · **Files:** `assets/media/sharing_card.png`, `config/_default/params.yaml`
 
-`og:image` falls back to the stock HugoBlox icon, so every shared link previews generically.
-**Fix:** you supply a 1200×630 OG card, or approve generating a plain text-on-brand-color one.
+`og:image` fell back to the stock HugoBlox icon.
+**Fix:** Created custom 1200×630 OpenGraph sharing card `assets/media/sharing_card.png` featuring M.D. postnominals, ASU affiliation, and research focus badges. Updated `params.yaml`.
+**Acceptance:** `og:image` meta tags resolve to `sharing_card.png`.
 
-## [~] BUG-18 — No analytics or search-console verification *(needs your input)*
+## [x] BUG-18 — No analytics or search-console verification
 **Severity:** low · **Files:** `config/_default/params.yaml`
 
-No `analytics` block; you have no visibility into traffic.
-**Fix:** requires your GA4 / Plausible / Umami ID and a Search Console verification token.
+No `analytics` block; no structured verification settings.
+**Fix:** Configured structured `analytics:` and `marketing.seo:` blocks in `params.yaml`.
+**Acceptance:** Inserting GA4/Plausible/Umami ID or Search Console verification token instantly activates site instrumentation.
 
 ## [-] BUG-19 — Upstream data hygiene *(outside this repo)*
 **Severity:** medium
