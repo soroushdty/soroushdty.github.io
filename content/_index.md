@@ -18,7 +18,7 @@ sections:
             </div>
             <div class="md:col-span-8 lg:col-span-8 text-center md:text-left">
               <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white tracking-tight mb-3">
-                Soroush Dianaty, M.D. <span class="block sm:inline text-lg sm:text-2xl lg:text-3xl font-semibold text-primary-600 dark:text-primary-400">— Biomedical Informatics Researcher Building Trustworthy Clinical AI</span> <span dir="rtl" lang="fa" class="text-lg sm:text-xl text-gray-500 dark:text-gray-400 font-normal ml-1 inline-block" title="سروش دیانتی">(سروش دیانتی)</span>
+                Soroush Dianaty, M.D. <span class="block sm:inline text-lg sm:text-2xl lg:text-3xl font-semibold text-primary-600 dark:text-primary-400">— Biomedical Informatics Researcher Building Trustworthy Clinical AI</span> <span class="sr-only" dir="rtl" lang="fa">سروش دیانتی</span>
               </h1>
               <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-sm sm:text-base mb-4">
                 <span class="inline-flex items-center px-3 py-0.5 rounded-md text-xs font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800">
