@@ -1,5 +1,4 @@
-# Personal website of Dr. Soroush Dianaty.
-
+# My Personal Academic Website.
 
 ## 🌟 Architecture & Features
 
