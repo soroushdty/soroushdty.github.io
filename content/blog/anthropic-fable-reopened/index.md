@@ -57,12 +57,12 @@ sequenceDiagram
     participant BIS as US Dept of Commerce (BIS)
     participant Res as Security and AWS Researchers
 
-    Note over Ant,Pub: June 9, 2026: Launch of Fable 5 & Mythos 5
+    Note over Ant,Pub: June 9, 2026: Launch of Fable 5 and Mythos 5
     Res->>BIS: June 12: Report jailbreak enabling vuln exploitation
     BIS->>Ant: June 12 (5:21 PM): Export directive (Gated by Nationality)
     Ant-->>Pub: June 12 (Night): Global API Suspension (Lack of real-time KYC)
-    Note over Ant,BIS: June 13–30: Technical Remediation & Classifier Hardening
-    Ant->>BIS: Submit hardened classifiers & Project Glasswing governance framework
+    Note over Ant,BIS: June 13-30: Technical Remediation and Classifier Hardening
+    Ant->>BIS: Submit hardened classifiers and Project Glasswing framework
     BIS->>Ant: July 1: Export control order officially rescinded
     Ant->>Pub: July 1: Fable 5 restored; Mythos 5 restricted to Project Glasswing
 ```
@@ -91,7 +91,7 @@ Because standard SaaS platforms do not perform real-time passport or citizenship
 ```mermaid
 flowchart LR
     A["Traditional Hardware Controls"] -->|Target| B["GPUs, Lithography, Datacenters"]
-    C["New API Export Controls"] -->|Target| D["Real-Time Inference & Model Weights"]
+    C["New API Export Controls"] -->|Target| D["Real-Time Inference and Model Weights"]
     D -->|Compliance Friction| E["Requires API KYC or Automated Safety Guardrails"]
 ```
 
@@ -159,7 +159,7 @@ flowchart TD
     Abstraction -->|Secondary Route| Secondary["Alternative Cloud API (GPT-4o / Gemini Pro)"]
     Abstraction -->|Emergency Fallback| Local["On-Premises / Open-Weight (Med-Llama 3 / DeepSeek)"]
     
-    Fable -- "503 / 403 / Suspension" --> Abstraction
+    Fable -->|503 / 403 / Suspension| Abstraction
 ```
 
 If the primary API returns a `403 Forbidden` (regulatory lockout), `503 Service Unavailable`, or fails latency SLAs, your gateway should automatically failover to a validated secondary model or local open-weights instance.
