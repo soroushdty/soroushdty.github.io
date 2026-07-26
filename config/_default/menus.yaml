@@ -19,6 +19,9 @@ main:
   - name: Blog
     url: /blog
     weight: 5
+  - name: Teaching
+    url: /teaching
+    weight: 6
   - name: News
     url: /#news
-    weight: 6
+    weight: 7

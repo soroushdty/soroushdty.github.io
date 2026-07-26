@@ -5,6 +5,7 @@ hugoblox:
     type: person
     tagline: Physician-scientist and PhD researcher | Biomedical Informatics and Data Science
     description: My research at Arizona State University (ASU) focuses on clinical LLM hallucination detection, evidence grounding, and responsible AI evaluation.
+    sharing_image: "media/sharing_card.png"
   theme:
     mode: system
     pack: default
@@ -33,10 +34,23 @@ hugoblox:
     notice: © {year} {name}
   content:
     math:
-      enable: false
+      enable: true
     toc:
       enable: true
     reading_time:
       enable: true
   search:
     enable: true
+
+# Analytics & SEO Verification Instrumentation
+analytics:
+  google:
+    analytics_id: "" # Insert GA4 Measurement ID (e.g. G-XXXXXXXXXX)
+  plausible:
+    domain: "soroushdianaty.com"
+  umami:
+    website_id: ""
+
+marketing:
+  seo:
+    google_site_verification: "" # Insert Google Search Console verification token
