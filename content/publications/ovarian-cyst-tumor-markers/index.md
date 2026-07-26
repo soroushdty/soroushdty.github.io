@@ -12,3 +12,5 @@ tags:
   - Diagnostics
 featured: false
 ---
+
+> 🧠 **Research Collaboration:** Conducted during my research appointment at the **Neuroscience Research Center** (Department of Physiology, IAUTMU) under/with **Dr. Batool Ghorbani Yekta**. [View Neuroscience Research Assistant Portfolio →](/experience/neuroscience-research-assistant/)

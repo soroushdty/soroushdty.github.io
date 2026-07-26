@@ -19,6 +19,8 @@ hugoblox:
   ids:
     doi: "10.1055/a-2863-4129"
 links:
+  - type: pdf
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13286105/"
   - name: PubMed Central
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13286105/"
   - name: PubMed

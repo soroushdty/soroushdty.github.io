@@ -16,8 +16,12 @@ hugoblox:
   ids:
     doi: "10.18502/ijrm.v21i2.12809"
 links:
+  - type: pdf
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10073868/"
   - name: PubMed Central
     url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10073868/"
   - name: PubMed
     url: "https://pubmed.ncbi.nlm.nih.gov/37034297/"
 ---
+
+> 🧠 **Research Collaboration:** Conducted during my research appointment at the **Neuroscience Research Center** (Department of Physiology, IAUTMU) under/with **Dr. Batool Ghorbani Yekta**. [View Neuroscience Research Assistant Portfolio →](/experience/neuroscience-research-assistant/)
