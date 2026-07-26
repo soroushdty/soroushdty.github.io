@@ -1,13 +1,13 @@
 # Navigation Links
 main:
-  - name: Research
-    url: /research/
-    weight: 1
-  - name: Publications
-    url: /publications/
-    weight: 2
   - name: About
     url: /about/
+    weight: 1
+  - name: Research
+    url: /research/
+    weight: 2
+  - name: Publications
+    url: /publications/
     weight: 3
   - name: Writing
     url: /writing/
@@ -18,4 +18,3 @@ main:
   - name: CV / Contact
     url: /cv/
     weight: 6
-
