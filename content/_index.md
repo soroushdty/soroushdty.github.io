@@ -15,12 +15,17 @@ sections:
               <img class="w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover shadow-xl ring-4 ring-primary-500/20" src="/media/authors/me.jpg" alt="Dr. Soroush Dianaty, M.D.">
             </div>
             <div class="flex-1 text-center md:text-left">
-              <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white tracking-tight mb-2">
-                Welcome to the Personal Website of <span class="text-primary-600 dark:text-primary-400 font-extrabold">Soroush Dianaty, M.D.</span>
+              <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white tracking-tight mb-3">
+                Welcome to the Personal Website of <span class="text-primary-600 dark:text-primary-400 font-extrabold">Soroush Dianaty, M.D.</span> <span dir="rtl" lang="fa" class="text-xl sm:text-2xl text-gray-500 dark:text-gray-400 font-normal ml-2 inline-block" title="سروش دیانتی">(سروش دیانتی)</span>
               </h1>
-              <p class="text-lg sm:text-xl font-semibold text-primary-600 dark:text-primary-400 mb-4">
-                PhD Student in Biomedical Informatics & Data Science · Arizona State University
-              </p>
+              <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-base sm:text-lg mb-5">
+                <span class="inline-flex items-center px-3 py-0.5 rounded-md text-sm font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800">
+                  PhD Student
+                </span>
+                <span class="text-gray-800 dark:text-gray-100 font-semibold">Biomedical Informatics &amp; Data Science</span>
+                <span class="text-gray-400 dark:text-gray-500">·</span>
+                <span class="text-secondary-600 dark:text-secondary-400 font-bold">Arizona State University</span>
+              </div>
               <p class="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
                 Physician-scientist specializing in evaluation frameworks for <strong>trustworthy clinical LLMs</strong>. Research focuses on translating academic findings into deployable AI systems, with emphasis on automated hallucination detection, evidence grounding, and FHIR granular data segmentation.
               </p>
