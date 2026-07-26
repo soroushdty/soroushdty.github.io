@@ -3,24 +3,27 @@ main:
   - name: Home
     url: /
     weight: 1
+  - name: Research
+    url: /research/
+    weight: 2
   - name: Bio
     url: /bio/
-    weight: 2
+    weight: 3
   - name: Experience
     url: /experience/
-    weight: 3
+    weight: 4
   - name: Projects
     url: /projects
-    weight: 4
+    weight: 5
   - name: Publications
     url: /publications
-    weight: 5
+    weight: 6
   - name: Blog
     url: /blog
-    weight: 6
+    weight: 7
   - name: Teaching
     url: /teaching
-    weight: 7
+    weight: 8
   - name: News
     url: /#news
-    weight: 8
+    weight: 9
