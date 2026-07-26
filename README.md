@@ -1,9 +1,5 @@
 # Personal website of Dr. Soroush Dianaty.
 
-Live at **[soroushdianaty.com](https://soroushdianaty.com)**.
-
----
-
 ## 🌟 Architecture & Features
 
 - **M.D. Education & Thesis Portfolio:** Dedicated page at [`/education/md/`](https://soroushdianaty.com/education/md/) detailing clinical rotations, medical degree, and apheresis cost-effectiveness thesis.
