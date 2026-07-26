@@ -32,8 +32,6 @@ image:
   preview_only: false
 ---
 
-![The Reopening of Anthropic's Fable](fable_reopened_header.jpg)
-
 [In my previous analysis of the Fable 5 suspension](/blog/anthropic-fable/), I argued that taking down a frontier AI model worldwide over a narrow, non-universal jailbreak without due process set an alarming precedent for regulated software. When the U.S. government issued an emergency export-control directive on June 12, 2026, requiring Anthropic to restrict model access by user citizenship, the inability to verify nationality in real-time forced Anthropic to pull **Claude Fable 5** and **Claude Mythos 5** offline globally.
 
 Nineteen days later, the freeze ended. On **July 1, 2026**, the U.S. Department of Commerce (Bureau of Industry and Security, or BIS) officially rescinded the export control order following intensive technical remediation, classifier hardening, and governance negotiations. Access to Fable 5 was restored across the Claude Platform, AWS, Google Cloud, and Microsoft Foundry.
@@ -54,10 +52,10 @@ To understand where AI governance is heading, we must look at the 20-day timelin
 ```mermaid
 sequenceDiagram
     autonumber
-    participant Pub as Public & Enterprise Users
+    participant Pub as Public and Enterprise Users
     participant Ant as Anthropic API Layer
     participant BIS as US Dept of Commerce (BIS)
-    participant Res as Security & AWS Researchers
+    participant Res as Security and AWS Researchers
 
     Note over Ant,Pub: June 9, 2026: Launch of Fable 5 & Mythos 5
     Res->>BIS: June 12: Report jailbreak enabling vuln exploitation
