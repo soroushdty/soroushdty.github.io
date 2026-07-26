@@ -12,7 +12,7 @@ sections:
         <div class="py-8 sm:py-12 bg-gradient-to-r from-primary-500/10 via-transparent to-secondary-500/10 rounded-3xl px-6 sm:px-10 my-4 border border-gray-200/60 dark:border-gray-800">
           <div class="flex flex-col md:flex-row items-center gap-8">
             <div class="flex-shrink-0">
-              <img class="w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover shadow-xl ring-4 ring-primary-500/20" src="/media/authors/me/avatar.jpg" alt="Dr. Soroush Dianaty, M.D.">
+              <img class="w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover shadow-xl ring-4 ring-primary-500/20" src="/media/authors/me.jpg" alt="Dr. Soroush Dianaty, M.D.">
             </div>
             <div class="flex-1 text-center md:text-left">
               <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-2">

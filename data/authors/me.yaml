@@ -1,6 +1,7 @@
 schema: "hugoblox/author/v1"
 slug: "me"
 is_owner: true
+avatar: "me.jpg"
 name:
   display: "Soroush Dianaty"
   given: "Soroush"
