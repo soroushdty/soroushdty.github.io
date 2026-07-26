@@ -35,6 +35,16 @@ sections:
       columns: "1"
     ce: "section-8494a2bc"
     As: "section-6d79884b"
+  - block: "markdown"
+    content:
+      title: "🏆 Award Spotlight"
+      subtitle: ""
+      text: "🏆 **First Place ($2,500) — Nucleate Arizona BioChallenge (Oct 2025):** Recognized for innovative biotech and digital health translation, advancing evidence-grounded computational methods from academic research toward real-world healthcare application."
+    design:
+      columns: "1"
+    ce: "section-awards"
+    id: "awards-spotlight"
+    As: "section-awards-spotlight"
   - block: "collection"
     content:
       title: "Featured Publications"
@@ -90,6 +100,7 @@ sections:
       order: "desc"
     design:
       view: "card"
+      columns: 1
       spacing:
         padding:
           - 0
