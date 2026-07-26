@@ -48,12 +48,13 @@ education:
     institution: "Tehran Medical Sciences Branch, Islamic Azad University (IAUTMU)"
     start: "Sep 2016"
     end: "Jun 2024"
-    summary: "Thesis: Cost-effectiveness of plasmapheresis vs hemoperfusion in critically ill COVID-19 patients.\n"
+    url: "/education/md/"
+    link_text: "View Thesis & Clinical Portfolio →"
 experience:
   - role: "Graduate Teaching Associate"
     org: "College of Health Solutions, Arizona State University"
     start: "Aug 2025"
-    summary: "Supported instruction for BMI 201 (Introduction to Clinical Informatics) and BMI 601 (Health Informatics) through assignment development, discussion facilitation, grading, and student guidance.\n"
+    summary: "Supported instruction for BMI 201 (Introduction to Clinical Informatics, Fall 2025) and BMI 601 (Health Informatics, Spring 2026) through assignment development, discussion facilitation, grading, and student guidance.\n"
   - role: "Graduate Research Assistant — Substance Use Health Record Sharing (SHARES)"
     org: "Arizona State University · Funded by NIDA · PI: Dr. Adela Grando"
     start: "Oct 2024"
@@ -66,6 +67,9 @@ experience:
     org: "Qeshlaq Rural Health Center, Abyek, Qazvin, Iran"
     start: "Oct 2024"
     end: "Jul 2025"
+    button:
+      text: "View Clinical Service Portfolio →"
+      url: "/experience/family-physician/"
     summary: "Delivered primary and preventive care to a rural population of 7,500+ across 17 villages and five satellite health centers, managing chronic disease, prenatal, adolescent, and mental health care within Iran's national EHR system.\n"
   - role: "Researcher — Computational Medicine Center"
     org: "K. N. Toosi University of Technology, Tehran, Iran"
@@ -76,55 +80,45 @@ experience:
     org: "Universal Scientific Education and Research Network (USERN), Tehran University of Medical Sciences"
     start: "Mar 2022"
     end: "Mar 2023"
+    button:
+      text: "View USERN Portfolio →"
+      url: "/experience/usern/"
     summary: "Coordinated logistics and research content development for USERN events, and automated certificate generation in Python, reducing processing time by 60%.\n"
   - role: "Research Assistant — Neuroscience Research Center"
     org: "Department of Physiology, IAUTMU, Tehran, Iran"
     start: "May 2018"
     end: "Jan 2020"
+    button:
+      text: "View Research Portfolio →"
+      url: "/experience/neuroscience-research-assistant/"
     summary: "Conducted data analysis and visualization in support of neuropharmacology research.\n"
 skills:
   - name: "Machine Learning & AI"
     items:
       - label: "Deep Learning & Classical ML"
-        level: 5
       - label: "LLM Fine-Tuning (LoRA, PEFT)"
-        level: 4
       - label: "Prompt & Context Engineering"
-        level: 5
       - label: "LLM Application Development"
-        level: 4
   - name: "Programming & Data"
     items:
       - label: "Python"
-        level: 5
       - label: "SQL"
-        level: 4
       - label: "SAS"
-        level: 4
       - label: "Linux & Git"
-        level: 4
   - name: "Health Data & Interoperability"
     items:
       - label: "FHIR"
-        level: 4
       - label: "SNOMED-CT, LOINC, ICD"
-        level: 4
       - label: "EHR Systems (Epic)"
-        level: 4
   - name: "Research Methods"
     items:
       - label: "Regression Modeling"
-        level: 5
       - label: "Survival Analysis"
-        level: 4
       - label: "Cost-effectiveness Analysis"
-        level: 5
 languages:
   - name: "English"
-    level: 4
     label: "Fluent"
   - name: "Persian"
-    level: 4
     label: "Native"
 awards:
   - title: "First Place, Arizona BioChallenge"

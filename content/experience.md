@@ -18,18 +18,31 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: resume-skills
+  - block: markdown
     content:
-      title: Skills & Hobbies
-      username: me
+      title: Skills
+      text: |-
+        **Machine Learning & AI**  
+        Deep Learning & Classical ML · LLM Fine-Tuning (LoRA, PEFT) · Prompt & Context Engineering · LLM Application Development
+
+        **Programming & Data**  
+        Python · SQL · SAS · Linux & Git
+
+        **Health Data & Interoperability**  
+        FHIR · SNOMED-CT, LOINC, ICD · EHR Systems (Epic)
+
+        **Research Methods**  
+        Regression Modeling · Survival Analysis · Cost-effectiveness Analysis
   - block: resume-awards
     content:
       title: Awards
       username: me
-  - block: resume-languages
+  - block: markdown
     content:
       title: Languages
-      username: me
+      text: |-
+        - **English** — Fluent
+        - **Persian** — Native
   - block: markdown
     content:
       title: Licenses, Certifications & Service
