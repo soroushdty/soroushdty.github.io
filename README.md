@@ -1,6 +1,4 @@
-# soroushdianaty.com
-
-Personal academic website of **Dr. Soroush Dianaty**.
+# Personal academic website of Dr. Soroush Dianaty.
 
 Live at **[soroushdianaty.com](https://soroushdianaty.com)**.
 
