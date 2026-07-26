@@ -1,5 +1,7 @@
 # Personal website of Dr. Soroush Dianaty.
 
+---
+
 ## 🌟 Architecture & Features
 
 - **M.D. Education & Thesis Portfolio:** Dedicated page at [`/education/md/`](https://soroushdianaty.com/education/md/) detailing clinical rotations, medical degree, and apheresis cost-effectiveness thesis.
