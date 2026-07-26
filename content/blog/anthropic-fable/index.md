@@ -27,7 +27,9 @@ cover:
   icon:
     name: ""
 image:
-  caption: ""
+  filename: "featured.png"
+  focal_point: "Smart"
+  preview_only: false
 ---
 ![Anatomy of a Shutdown: The Fable 5 Suspension](Anatomy_of_a_Shutdown.png)
 
