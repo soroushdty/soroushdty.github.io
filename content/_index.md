@@ -15,8 +15,8 @@ sections:
               <img class="w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover shadow-xl ring-4 ring-primary-500/20" src="/media/authors/me.jpg" alt="Dr. Soroush Dianaty, M.D.">
             </div>
             <div class="flex-1 text-center md:text-left">
-              <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-2">
-                Dr. Soroush Dianaty, M.D.
+              <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white tracking-tight mb-2">
+                Welcome to the Personal Website of <span class="text-primary-600 dark:text-primary-400 font-extrabold">Soroush Dianaty, M.D.</span>
               </h1>
               <p class="text-lg sm:text-xl font-semibold text-primary-600 dark:text-primary-400 mb-4">
                 PhD Student in Biomedical Informatics & Data Science · Arizona State University
