@@ -2,6 +2,7 @@ name: Build
 
 env:
   NODE_VERSION: '22'
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
 
 on:
   # Standalone trigger for PR validation
@@ -124,7 +125,10 @@ jobs:
 
     - name: Setup Pages
       id: pages
+      continue-on-error: true
       uses: actions/configure-pages@v5
+      with:
+        enablement: true
 
     - name: Build with Hugo
       env:
@@ -132,7 +136,11 @@ jobs:
         HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        BASE_URL="${{ steps.pages.outputs.base_url }}"
+        if [ -z "$BASE_URL" ]; then
+          BASE_URL="https://soroushdianaty.com"
+        fi
+        hugo --minify --baseURL "${BASE_URL}/"
 
     - name: Generate Pagefind search index (if applicable)
       run: |
