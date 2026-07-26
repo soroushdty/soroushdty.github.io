@@ -1,7 +1,6 @@
 # soroushdianaty.com
 
-Personal academic website of **Dr. Soroush Dianaty, M.D.** — PhD student in Biomedical Informatics & Data Science at Arizona State University (ASU). Research focuses on trustworthy clinical LLMs: hallucination detection, evidence grounding, FHIR granular data segmentation, and responsible AI evaluation in healthcare.
-
+Personal academic website of **Dr. Soroush Dianaty**.
 Live at **[soroushdianaty.com](https://soroushdianaty.com)**.
 
 ---
@@ -60,4 +59,4 @@ Pushing to `main` triggers `.github/workflows/deploy.yml` which builds the Hugo 
 
 ## 📄 License
 
-Site content © Dr. Soroush Dianaty, M.D. Theme template released under the [MIT License](LICENSE.md); HugoBlox is a trademark of Lore Labs.
+Site content © Dr. Soroush Dianaty | Theme template released under the [MIT License](LICENSE.md); HugoBlox is a trademark of Lore Labs.
