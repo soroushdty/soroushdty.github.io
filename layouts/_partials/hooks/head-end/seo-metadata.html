@@ -71,25 +71,12 @@
   ]
 }
 </script>
-{{ else }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://soroushdianaty.com/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "{{ .Title }}",
-      "item": "{{ .Permalink }}"
-    }
-  ]
-}
-</script>
 {{ end }}
+{{- /*
+  BreadcrumbList JSON-LD is emitted centrally by layouts/_partials/jsonld/breadcrumbs.html
+  (via jsonld/main), which builds the full ancestor chain with a robust name
+  fallback. The previous hard-coded two-level breadcrumb here duplicated that
+  output and rendered an empty "name" whenever a page had no title, triggering
+  Google's "Either name or item.name should be specified" error. It has been
+  removed so there is a single, valid breadcrumb per page.
+*/ -}}

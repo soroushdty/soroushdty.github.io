@@ -1,0 +1,79 @@
+{{- /*
+  BreadcrumbList JSON-LD (project override of the Hugo Blox module partial).
+
+  Emits ONE BreadcrumbList per non-home page, in the nested form consistently:
+  every ListItem carries a non-empty `name` AND `item` as an object with
+  `@id` (URL) and `name`. A robust name resolver guarantees a non-empty name
+  for every entry so Google never sees the
+  "Either name or item.name should be specified" error. Untitled pages fall
+  back to a humanized slug and, failing that, to the site title. An entry that
+  genuinely cannot be named is skipped rather than emitted invalid.
+*/ -}}
+{{- $page := .page -}}
+
+{{- if not $page.IsHome -}}
+  {{- $items := slice -}}
+  {{- $position := 1 -}}
+
+  {{- with site.Home -}}
+    {{- $name := partial "inline/breadcrumb-name.html" (dict "page" .) -}}
+    {{- if $name -}}
+      {{- $item := dict "@type" "ListItem" "position" $position "name" $name "item" (dict "@id" .Permalink "name" $name) -}}
+      {{- $items = $items | append $item -}}
+      {{- $position = add $position 1 -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- with $page.Ancestors -}}
+    {{- range .Reverse -}}
+      {{- if not .IsHome -}}
+        {{- $name := partial "inline/breadcrumb-name.html" (dict "page" .) -}}
+        {{- if $name -}}
+          {{- $item := dict "@type" "ListItem" "position" $position "name" $name "item" (dict "@id" .Permalink "name" $name) -}}
+          {{- $items = $items | append $item -}}
+          {{- $position = add $position 1 -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $name := partial "inline/breadcrumb-name.html" (dict "page" $page) -}}
+  {{- if $name -}}
+    {{- $item := dict "@type" "ListItem" "position" $position "name" $name "item" (dict "@id" $page.Permalink "name" $name) -}}
+    {{- $items = $items | append $item -}}
+  {{- end -}}
+
+  {{- if gt (len $items) 1 -}}
+    {{- $breadcrumb := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items -}}
+    <script type="application/ld+json">
+    {{ $breadcrumb | jsonify (dict "indent" "  ") | safeJS }}
+    </script>
+  {{- end -}}
+{{- end -}}
+
+{{- /*
+  Resolve a non-empty, human-readable breadcrumb name for a page.
+  Order: LinkTitle/Title -> content file base name -> humanized URL slug ->
+  site title. Returns "" only if every source is empty (caller then skips it).
+*/ -}}
+{{- define "_partials/inline/breadcrumb-name.html" -}}
+  {{- $p := .page -}}
+  {{- $name := "" -}}
+  {{- with ($p.LinkTitle | default $p.Title) -}}
+    {{- $name = . | plainify | chomp -}}
+  {{- end -}}
+  {{- if not $name -}}
+    {{- with $p.File -}}
+      {{- $name = .ContentBaseName | humanize | title | chomp -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $name -}}
+    {{- $slug := path.Base $p.RelPermalink -}}
+    {{- if or (not $slug) (eq $slug "/") (eq $slug ".") -}}
+      {{- $name = site.Title | default "Home" | plainify | chomp -}}
+    {{- else -}}
+      {{- $name = $slug | humanize | title | chomp -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $name -}}
+{{- end -}}
