@@ -22,9 +22,14 @@ sections:
                 <span class="block mt-1 text-xl sm:text-2xl lg:text-3xl font-semibold text-primary-600 dark:text-primary-400">Biomedical Informatics Researcher Building Trustworthy Clinical AI</span>
                 <span class="sr-only" dir="rtl" lang="fa">سروش دیانتی</span>
               </h1>
-              <p class="text-base sm:text-lg font-medium text-gray-700 dark:text-gray-300 mb-3">
-                PhD Researcher, Biomedical Informatics &amp; Data Science · <span class="text-secondary-600 dark:text-secondary-400 font-bold">Arizona State University</span>
+              <p class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200 mb-2">
+                Biomedical Informatics &amp; Data Science
               </p>
+              <div class="flex justify-center md:justify-start mb-4">
+                <span class="inline-flex items-center px-3.5 py-1 rounded-md text-xs sm:text-sm font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800">
+                  PhD Researcher · Arizona State University
+                </span>
+              </div>
               <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-xs mb-5">
                 <span class="inline-flex items-center px-3 py-1 rounded-full font-medium bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
                   NIH / NIDA Supported
