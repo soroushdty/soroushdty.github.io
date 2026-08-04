@@ -60,16 +60,43 @@ sections:
 
         <hr class="my-8 border-gray-200 dark:border-gray-800" />
 
-        <div class="p-8 bg-gradient-to-br from-primary-500/10 via-secondary-500/5 to-transparent rounded-2xl border border-primary-500/30 text-center">
-        <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">Interested in Collaborating?</h2>
-        <p class="text-base text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-6 leading-relaxed">
-        I am actively interested in collaborative research, joint grants, and peer reviews spanning <strong>clinical LLM evaluation</strong>, <strong>evidence grounding</strong>, <strong>FHIR health data privacy</strong>, and <strong>digital health surveillance</strong>.
-        </p>
-        <div class="flex justify-center">
-        <a href="mailto:sdianaty@asu.edu?subject=Research%20Collaboration%20Inquiry" class="inline-flex items-center px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-bold text-sm rounded-xl shadow-md transition-all">
-        Send Collaboration Inquiry →
-        </a>
-        </div>
+        <div class="p-8 bg-gradient-to-br from-primary-500/10 via-secondary-500/5 to-transparent rounded-2xl border border-primary-500/30">
+          <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-3 text-center">Collaboration & Advisory Opportunities</h2>
+          <p class="text-base text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-8 text-center leading-relaxed">
+            I am actively interested in collaborative research, joint grant applications, clinical AI benchmarking, and speaking engagements spanning <strong>clinical LLM evaluation</strong>, <strong>evidence grounding</strong>, and <strong>FHIR data privacy</strong>.
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 not-prose">
+            <div class="p-5 bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 flex flex-col justify-between">
+              <div>
+                <h3 class="text-base font-bold text-gray-900 dark:text-white mb-2">🎓 Academic & Grant Co-PI</h3>
+                <p class="text-xs text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">Joint NIH/AHRQ proposals, peer-reviewed study design, and clinical NLP benchmark collaborations.</p>
+              </div>
+              <a href="mailto:sdianaty@asu.edu?subject=Academic%20%26%20Grant%20Collaboration" class="inline-flex items-center justify-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-semibold text-xs rounded-lg transition-all">
+                Grant Inquiry →
+              </a>
+            </div>
+
+            <div class="p-5 bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 flex flex-col justify-between">
+              <div>
+                <h3 class="text-base font-bold text-gray-900 dark:text-white mb-2">🏥 Clinical AI Advisory</h3>
+                <p class="text-xs text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">Evaluating clinical LLMs for health systems, hallucination audit frameworks, and FHIR privacy setup.</p>
+              </div>
+              <a href="mailto:sdianaty@asu.edu?subject=Clinical%20AI%20Advisory%20Inquiry" class="inline-flex items-center justify-center px-4 py-2 bg-secondary-600 hover:bg-secondary-700 text-white font-semibold text-xs rounded-lg transition-all">
+                Advisory Inquiry →
+              </a>
+            </div>
+
+            <div class="p-5 bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-800 flex flex-col justify-between">
+              <div>
+                <h3 class="text-base font-bold text-gray-900 dark:text-white mb-2">🎤 Keynotes & Panels</h3>
+                <p class="text-xs text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">Presentations on evidence-grounded AI, clinical safety benchmarks, and AI governance at conferences.</p>
+              </div>
+              <a href="mailto:sdianaty@asu.edu?subject=Speaking%20Engagements%20Inquiry" class="inline-flex items-center justify-center px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs rounded-lg transition-all">
+                Request Presentation →
+              </a>
+            </div>
+          </div>
         </div>
         </div>
     design:

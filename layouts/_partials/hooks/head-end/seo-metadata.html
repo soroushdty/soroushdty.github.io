@@ -92,4 +92,30 @@
   ]
 }
 </script>
+{{ if and (or (eq .Section "publication") (eq .Section "publications") (eq .Type "publication") (eq .Type "publications")) .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "{{ .Title }}",
+  "name": "{{ .Title }}",
+  "url": "{{ .Permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  "description": "{{ .Summary | plainify }}",
+  "author": {
+    "@type": "Person",
+    "name": "Soroush Dianaty",
+    "url": "https://soroushdianaty.com/"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Soroush Dianaty, M.D.",
+    "url": "https://soroushdianaty.com/"
+  }
+  {{ $doi := .Params.doi | default (index (index .Params "hugoblox" | default dict) "ids" | default dict).doi }}
+  {{ with $doi }},"identifier": "{{ . }}"{{ end }}
+  {{ with .Params.publication }},"isPartOf": { "@type": "Periodical", "name": "{{ . | plainify }}" }{{ end }}
+}
+</script>
+{{ end }}
 {{ end }}
