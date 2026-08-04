@@ -17,32 +17,27 @@ sections:
               </div>
             </div>
             <div class="md:col-span-8 lg:col-span-8 text-center md:text-left">
-              <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white tracking-tight mb-3">
+              <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white tracking-tight mb-2">
                 Soroush Dianaty, M.D.
                 <span class="block mt-1 text-xl sm:text-2xl lg:text-3xl font-semibold text-primary-600 dark:text-primary-400">Biomedical Informatics Researcher Building Trustworthy Clinical AI</span>
                 <span class="sr-only" dir="rtl" lang="fa">سروش دیانتی</span>
               </h1>
-              <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-sm sm:text-base mb-3">
-                <span class="inline-flex items-center px-3 py-0.5 rounded-md text-xs font-semibold bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800">
-                  PhD Researcher
-                </span>
-                <span class="text-gray-800 dark:text-gray-200 font-semibold">Biomedical Informatics &amp; Data Science</span>
-                <span class="text-gray-400 dark:text-gray-500">·</span>
-                <span class="text-secondary-600 dark:text-secondary-400 font-bold">Arizona State University</span>
-              </div>
+              <p class="text-base sm:text-lg font-medium text-gray-700 dark:text-gray-300 mb-3">
+                PhD Researcher, Biomedical Informatics &amp; Data Science · <span class="text-secondary-600 dark:text-secondary-400 font-bold">Arizona State University</span>
+              </p>
               <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 text-xs mb-5">
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full font-medium bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
+                <span class="inline-flex items-center px-3 py-1 rounded-full font-medium bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
                   NIH / NIDA Supported
                 </span>
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full font-medium bg-indigo-50 text-indigo-700 dark:bg-indigo-950/60 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">
+                <span class="inline-flex items-center px-3 py-1 rounded-full font-medium bg-indigo-50 text-indigo-700 dark:bg-indigo-950/60 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">
                   AHRQ Research
                 </span>
-                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full font-medium bg-amber-50 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300 dark:border-amber-800">
+                <span class="inline-flex items-center px-3 py-1 rounded-full font-medium bg-amber-50 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300 dark:border-amber-800">
                   🏆 Nucleate BioChallenge 1st Place
                 </span>
               </div>
               <p class="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6 max-w-2xl">
-                Physician-scientist (7,500+ clinical patient encounters) and Biomedical Informatics PhD researcher at Arizona State University developing NIH/NIDA and AHRQ-supported evaluation frameworks for trustworthy clinical large language models, including hallucination detection, evidence grounding, and FHIR-based data segmentation.
+                Physician-scientist (7,500+ clinical patient encounters) developing evaluation frameworks for trustworthy clinical large language models, including hallucination detection, evidence grounding, and FHIR-based data segmentation.
               </p>
               <div class="flex flex-wrap justify-center md:justify-start gap-3">
                 <a href="/research/" class="inline-flex items-center px-5 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-semibold text-sm rounded-xl shadow-md transition-all duration-200">
