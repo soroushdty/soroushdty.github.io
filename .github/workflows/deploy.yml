@@ -1,8 +1,5 @@
 name: Deploy website to GitHub Pages
 
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
-
 on:
   # Trigger the workflow every time you push to the `main` branch
   push:

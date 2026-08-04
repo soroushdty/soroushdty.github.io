@@ -69,7 +69,7 @@ flowchart TD
     subgraph Processing ["3. Risk Engine & FHIR Converter"]
         B & E --> F["Clinical Escalation Algorithm"]
         F --> G["HL7 FHIR Observation Builder"]
-        F --> H["Privacy Segmentation Layer (42 CFR Part 2)"]
+        F --> H["Privacy Segmentation Layer (HIPAA / State Privacy Rules)"]
     end
 
     subgraph Action ["4. Tiered Clinical Escalation"]

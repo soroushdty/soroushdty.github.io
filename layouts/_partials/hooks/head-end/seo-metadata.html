@@ -2,13 +2,29 @@
 <meta name="keywords" content="Soroush Dianaty, سروش دیانتی, Soroush Dianaty M.D., Biomedical Informatics, Clinical LLMs, Arizona State University, Trustworthy AI, Evidence Grounding, FHIR">
 <meta name="author" content="Soroush Dianaty (سروش دیانتی)">
 
-{{ if .IsHome }}
+{{/* Global OpenGraph & Twitter Cards */}}
 <meta property="twitter:card" content="summary_large_image">
+<meta property="og:site_name" content="Soroush Dianaty, M.D.">
+<meta property="og:title" content="{{ .Title }}{{ if not .IsHome }} | Soroush Dianaty, M.D.{{ end }}">
+<meta property="og:description" content="{{ .Params.summary | default .Summary | default "Physician-scientist and Biomedical Informatics PhD researcher at Arizona State University studying trustworthy clinical LLMs, evidence grounding, and FHIR health data interoperability." | plainify }}">
+<meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="{{ "media/sharing_card.png" | absURL }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Soroush Dianaty, M.D. - Biomedical Informatics Researcher">
 <meta property="twitter:image" content="{{ "media/sharing_card.png" | absURL }}">
+
+{{/* Google Scholar Citation Metadata for Publications */}}
+{{ if and (or (eq .Section "publication") (eq .Section "publications") (eq .Type "publication") (eq .Type "publications")) .IsPage }}
+<meta name="citation_title" content="{{ .Title }}">
+<meta name="citation_author" content="Dianaty, Soroush">
+<meta name="citation_publication_date" content="{{ .Date.Format "2006/01/02" }}">
+{{ with .Params.publication }}<meta name="citation_journal_title" content="{{ . | plainify }}">{{ end }}
+{{ $doi := .Params.doi | default (index (index .Params "hugoblox" | default dict) "ids" | default dict).doi }}
+{{ with $doi }}<meta name="citation_doi" content="{{ . }}">{{ end }}
+{{ end }}
+
+{{ if .IsHome }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -108,7 +124,7 @@
     "url": "https://soroushdianaty.com/"
   },
   "publisher": {
-    "@type": "Person",
+    "@type": "Organization",
     "name": "Soroush Dianaty, M.D.",
     "url": "https://soroushdianaty.com/"
   }

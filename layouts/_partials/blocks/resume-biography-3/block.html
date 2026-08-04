@@ -74,10 +74,10 @@
             {{ range . }}
               {{ $icon_name := .icon }}
               {{ $url := .url }}
-              {{ $label := .label | default "" }}
+              {{ $label := .label | default (printf "%s profile" .icon) }}
               <a href="{{ $url }}" target="_blank" rel="noopener" aria-label="{{ $label }}"
-                 class="p-2.5 bg-gray-100 dark:bg-gray-800 hover:bg-primary-100 dark:hover:bg-primary-900/50 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 rounded-xl transition-all duration-200">
-                {{ partial "functions/get_icon" (dict "name" $icon_name "attributes" "class='w-5 h-5'") }}
+                 class="p-3 bg-gray-100 dark:bg-gray-800 hover:bg-primary-100 dark:hover:bg-primary-900/50 text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 rounded-xl min-w-[44px] min-h-[44px] inline-flex items-center justify-center transition-all duration-200">
+                {{ partial "functions/get_icon" (dict "name" $icon_name "attributes" "class='w-5 h-5' aria-hidden='true'") }}
               </a>
             {{ end }}
           </div>
@@ -133,9 +133,9 @@
                 {{ $education_heading = $education_heading_raw }}
               {{ end }}
             {{ end }}
-            <h3 class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white tracking-tight mb-6">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white tracking-tight mb-6">
               {{ $education_heading | markdownify }}
-            </h3>
+            </h2>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               {{ range $education }}
@@ -151,9 +151,9 @@
                   <div class="group h-full flex flex-col justify-between bg-white dark:bg-gray-800/80 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 border border-gray-200 dark:border-gray-700/80 border-l-4 border-l-primary-600 dark:border-l-primary-500">
                     <div>
                       <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1 mb-2">
-                        <h4 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                        <h3 class="text-lg font-bold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                           {{ $degree }}
-                        </h4>
+                        </h3>
                         {{ if or $start $end }}
                           <span class="inline-block text-xs font-semibold text-primary-700 dark:text-primary-300 bg-primary-50 dark:bg-primary-950/60 px-2.5 py-1 rounded-md border border-primary-200/60 dark:border-primary-800/60 flex-shrink-0">
                             {{ $start }}{{ if $end }} – {{ $end }}{{ else }} – Present{{ end }}
@@ -198,9 +198,9 @@
                 {{ $interests_heading = $interests_heading_raw }}
               {{ end }}
             {{ end }}
-            <h3 class="text-xl font-bold text-gray-900 dark:text-white tracking-tight mb-4">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white tracking-tight mb-4">
               {{ $interests_heading | markdownify }}
-            </h3>
+            </h2>
             <div class="flex flex-wrap gap-2.5">
               {{ range $interests }}
                 <span class="inline-block bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 text-sm font-medium px-3.5 py-1.5 rounded-lg border border-gray-200/80 dark:border-gray-700/80">
