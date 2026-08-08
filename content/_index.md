@@ -51,6 +51,9 @@ sections:
                 <a href="/publications" class="inline-flex items-center px-5 py-2.5 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold text-sm rounded-xl border border-gray-200 dark:border-gray-700 transition-all duration-200">
                   View Publications
                 </a>
+                <a href="/hobbies/" class="inline-flex items-center px-5 py-2.5 bg-emerald-50 dark:bg-emerald-950/60 hover:bg-emerald-100 dark:hover:bg-emerald-900 text-emerald-800 dark:text-emerald-300 font-semibold text-sm rounded-xl border border-emerald-300 dark:border-emerald-800 transition-all duration-200">
+                  Hobbies &amp; Outdoor Life 🌲
+                </a>
                 <a href="/uploads/cv.pdf" target="_blank" rel="noopener" class="inline-flex items-center px-5 py-2.5 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold text-sm rounded-xl border border-gray-200 dark:border-gray-700 transition-all duration-200">
                   Download CV
                 </a>
