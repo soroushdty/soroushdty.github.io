@@ -1,6 +1,6 @@
 ---
 title: "Beyond the Lab & Clinic"
-summary: "A personal narrative on outdoor exploration, philosophy, classical literature, music, and fine art."
+summary: "A personal narrative on outdoor exploration, philosophy, classical literature, music, fine art, and cinema."
 date: 2026-08-08
 type: "landing"
 
@@ -142,6 +142,159 @@ sections:
         <img src="/media/hiking/alpine-valley-summit-panorama.jpg" alt="Alpine valley summit panorama" class="w-full h-full object-cover group-hover:scale-103 transition-transform duration-500" loading="lazy">
         </div>
         </div>
+        </div>
+
+        <!-- Narrative Section 5: Cinema & Film Art -->
+        <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white pt-6 pb-2 border-b border-gray-200 dark:border-gray-800">
+        Cinema &amp; Film Art
+        </h2>
+
+        <p>
+        Cinema, for me, is the ultimate synthesis of storytelling, visual narrative, musical composition, and philosophical reflection. I am deeply drawn to films that challenge conventional structures; whether through haunting metaphysical inquiries, auteur visual craft, psychological intensity, or bold, visionary storytelling.
+        </p>
+
+        <p>
+        My appreciation of cinema spans avant-garde silent classics, dystopian political fables, complex neo-noirs, and allegorical thrillers. Below are some of my favorite films and cinematic works that have left a lasting impression on me:
+        </p>
+
+        <!-- Showcase Grid of Favorite Movies -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 my-8 not-prose">
+
+          <!-- Movie 1: Amélie -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Amélie</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">2001</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Jean-Pierre Jeunet</p>
+          </div>
+
+          <!-- Movie 2: The Lord of the Rings: The Return of the King -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">LOTR: The Return of the King</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">2003</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Peter Jackson</p>
+          </div>
+
+          <!-- Movie 3: Mother! -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Mother!</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">2017</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Darren Aronofsky</p>
+          </div>
+
+          <!-- Movie 4: The Double Life of Veronique -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">The Double Life of Veronique</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">1991</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Krzysztof Kieślowski</p>
+          </div>
+
+          <!-- Movie 5: Requiem for a Dream -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Requiem for a Dream</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">2000</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Darren Aronofsky</p>
+          </div>
+
+          <!-- Movie 6: Citizen Kane -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Citizen Kane</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">1941</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Orson Welles</p>
+          </div>
+
+          <!-- Movie 7: The Matrix -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">The Matrix</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">1999</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">The Wachowskis</p>
+          </div>
+
+          <!-- Movie 8: Inglourious Basterds -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Inglourious Basterds</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">2009</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Quentin Tarantino</p>
+          </div>
+
+          <!-- Movie 9: The Usual Suspects -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">The Usual Suspects</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">1995</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Bryan Singer</p>
+          </div>
+
+          <!-- Movie 10: Man with a Movie Camera -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Man with a Movie Camera</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">1929</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Dziga Vertov</p>
+          </div>
+
+          <!-- Movie 11: V for Vendetta -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">V for Vendetta</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">2005</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">James McTeigue</p>
+          </div>
+
+          <!-- Movie 12: The Seventh Seal -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">The Seventh Seal</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">1957</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Ingmar Bergman</p>
+          </div>
+
+          <!-- Movie 13: Lars von Trier's Depression Trilogy -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Depression Trilogy</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">2009–2013</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Lars von Trier</p>
+          </div>
+
+          <!-- Movie 14: The Dark Knight -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">The Dark Knight</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">2008</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Christopher Nolan</p>
+          </div>
+
+          <!-- Movie 15: Eternal Sunshine of the Spotless Mind -->
+          <div class="group p-5 rounded-2xl bg-gray-50 dark:bg-gray-900/80 border border-gray-200/80 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-blue-500/40 dark:hover:border-blue-500/40 transition-all duration-300">
+            <div class="flex items-baseline justify-between gap-2 mb-1">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Eternal Sunshine of the Spotless Mind</h3>
+              <span class="text-xs text-gray-500 dark:text-gray-400 font-mono shrink-0">2004</span>
+            </div>
+            <p class="text-xs font-medium text-gray-500 dark:text-gray-400">Michel Gondry</p>
+          </div>
+
         </div>
 
         <p class="pt-4 text-base text-gray-600 dark:text-gray-400 italic">
