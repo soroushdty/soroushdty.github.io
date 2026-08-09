@@ -102,9 +102,6 @@ sections:
         <p>
         My musical landscape is broad and eclectic, spanning Rock, Metal, Western Classical, and Persian Classical compositions. I find immense power in the symphonic structures of Beethoven, Mozart, Wagner, and Puccini, alongside the atmospheric depth of Pink Floyd, Anathema, Evanescence, Epica, Within Temptation, Paramore, Nirvana, Metallica, and Queen. I am equally drawn to the expressive vocal artistry of Édith Piaf, Joan Baez, Lana Del Rey, Pomme, Katie Melua, Jefferson Airplane, Adele, Florence and the Machine, Shahin Najafi, and Arash Fouladvand, with Dua Lipa as my occasional guilty pleasure.
         </p>
-        <p>
-        While my musical tastes are open to almost all genres, I have a firm aesthetic boundary: I specifically dislike rap, hip-hop, or any form of art that I evaluate as "Kitsch," art devoid of genuine emotional depth, intellectual weight, or artistic integrity.
-        </p>
 
         <!-- Scattered Photo Pair 4: 4x4 Sunset & River Gorge -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8 not-prose">
