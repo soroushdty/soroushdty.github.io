@@ -101,7 +101,7 @@ sections:
         </h2>
 
         <p>
-        My musical landscape is broad and eclectic, spanning Rock, Metal, Western Classical, and Persian Classical compositions. I find immense power in the symphonic structures of Beethoven, Mozart, Wagner, and Puccini, alongside the atmospheric depth of Pink Floyd, Anathema, Evanescence, Epica, Nightwish, Nirvana, Metallica, and Queen. I am equally drawn to the expressive vocal artistry of Édith Piaf, Joan Baez, Lana Del Rey, Pomme, Katie Melua, Jefferson Airplane, Adele, Florence and the Machine, Shahin Najafi, and Arash Fouladvand, with Dua Lipa as my occasional guilty pleasure.
+        My musical landscape is broad and eclectic, spanning Rock, Metal, Western Classical, and Persian Classical compositions. I find immense power in the symphonic structures of Beethoven, Mozart, Wagner, and Puccini, alongside the atmospheric depth of Pink Floyd, Anathema, Evanescence, Epica, Nightwish, Nirvana, Metallica, and Queen. I am equally drawn to the expressive vocal artistry of Édith Piaf, Joan Baez, Florence and the Machine, Lana Del Rey, and Adele, with Dua Lipa as my occasional guilty pleasure.
         </p>
 
         <!-- Scattered Photo Pair 4: 4x4 Sunset & River Gorge -->
@@ -127,7 +127,7 @@ sections:
         Although my personal talent for painting or playing musical instruments is virtually zero, I consider myself a passionate admirer of visual art. I enjoy interpreting and understanding art, drawn to works that evoke elegance, intellectual depth, and profound emotion.
         </p>
         <p>
-        I appreciate both classical and modern painting traditions. Some of the works that resonate most strongly with me include Botticelli’s <em>The Birth of Venus</em>, Jacques-Louis David’s <em>The Death of Socrates</em>, Picasso’s <em>La Vie</em>, El Greco’s <em>The Opening of the Fifth Seal</em>, and René Magritte’s <em>Le fils de l’homme</em>. I am also fascinated by Salvador Dalí’s surrealist visions, particularly <em>The Temptation of St. Anthony</em>, <em>Metamorphosis of Narcissus</em>, and <em>Archaeological Reminiscence of Millet's "Angelus"</em>.
+        I appreciate both classical and modern painting traditions. Some of the works that resonate most strongly with me include Botticelli’s <em>The Birth of Venus</em>, Jacques-Louis David’s <em>The Death of Socrates</em>, Picasso’s <em>La Vie</em> and <em>Les Demoiselles d'Avignon</em>, El Greco’s <em>The Opening of the Fifth Seal</em>, and René Magritte’s <em> The Son of Man (Le fils de l’homme)</em>. I am also fascinated by Salvador Dalí’s surrealist visions, particularly <em>The Temptation of St. Anthony</em>, and <em>Metamorphosis of Narcissus</em>.
         </p>
 
         <!-- Scattered Photo Pair 5: Autumn Woods & Summit Panorama -->
