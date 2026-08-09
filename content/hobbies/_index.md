@@ -74,7 +74,8 @@ sections:
         </h2>
 
         <p>
-        Beyond physical expeditions, I find intellectual clarity in philosophy and classical literature. In Western philosophical thought, I frequently return to the writings of Friedrich Nietzsche, Albert Camus, David Hume, and Epicurus, thinkers who explore human purpose, skepticism, ethics, and existential freedom. My intellectual curiosities also extend eastward, with studies into the foundational literature of Confucianism and Buddhism.
+        Beyond physical expeditions, I enjoy philosophy and the history of ideas, particularly the works of thinkers such as David Hume, Friedrich Nietzsche, Albert Camus, and Milton Friedman. Camus's absurdism resonates with me especially deeply; not as a pessimistic philosophy, but as an invitation to embrace life even without believing it comes with a predetermined meaning. My ethics are humanistic: I see our obligations to one another as arising from our shared humanity rather than from divine authority. I also place a high value on individual liberty and the freedom to live, think, speak, and make one's own choices, provided we respect that same freedom in others.
+
         </p>
         <p>
         I hold a deep affection for ancient Persian history, culture, and classical poetry. Among all literary works across cultures, my single favorite piece of literature remains Saadi's <em>Gulistan</em> (Golestan), a masterpiece whose timeless wisdom, moral elegance, and poetic brevity continue to inspire my view on human nature.

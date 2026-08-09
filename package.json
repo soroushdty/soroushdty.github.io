@@ -6,8 +6,10 @@
   "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
   "scripts": {
     "dev": "hugo server --disableFastRender",
-    "build": "hugo --gc --cleanDestinationDir --minify && pnpm run pagefind",
-    "pagefind": "pagefind --site public"
+    "scrub-images": "node scripts/strip-image-metadata.js",
+    "build": "pnpm run scrub-images && hugo --gc --cleanDestinationDir --minify && pnpm run pagefind",
+    "pagefind": "pagefind --site public",
+    "prepare": "git config core.hooksPath .githooks 2>/dev/null || true"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
@@ -15,5 +17,8 @@
     "pagefind": "^1.4.0",
     "preact": "^10.27.2",
     "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "exiftool-vendored": "^37.2.0"
   }
 }

@@ -139,6 +139,7 @@ jobs:
         if [ -z "$BASE_URL" ]; then
           BASE_URL="https://soroushdianaty.com"
         fi
+        pnpm run scrub-images
         hugo --minify --baseURL "${BASE_URL}/"
 
     - name: Generate Pagefind search index (if applicable)
