@@ -4,6 +4,7 @@ authors:
   - me
 publication_authors: "Dianaty S, Ghorbani Yekta B"
 date: "2018-02-25T00:00:00Z"
+event_date: "2018 Feb 25"
 publication_types: ["paper-conference"]
 publication: "In *Congress of Invention, Patenting and Manufacturing of Experimental, Pharmaceutical and Clinical Products*, Tehran, Iran"
 publication_short: "IAUTMU Congress 2018"

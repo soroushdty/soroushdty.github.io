@@ -4,6 +4,7 @@ authors:
   - me
 publication_authors: "Dianaty S, Soumma SB"
 date: "2026-05-05T00:00:00Z"
+event_date: "2026 May 5"
 publication_types: ["paper-conference"]
 publication: "In *2nd Arizona Digital Health Symposium*, Phoenix, AZ"
 publication_short: "AZ Digital Health Symposium 2026"

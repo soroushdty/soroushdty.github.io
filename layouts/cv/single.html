@@ -136,7 +136,7 @@
             <span>{{ .Params.publication_authors | default $author.name.display }}</span>.
             <span class="font-semibold text-gray-900 dark:text-white">"{{ .Title }}"</span>.
             <span>{{ .Params.publication | markdownify }}</span>.
-            <span>{{ .Date.Format "2006" }}</span>.
+            <span>{{ .Params.event_date | default (.Date.Format "2006") }}</span>.
           </li>
           {{ end }}
         </ol>
