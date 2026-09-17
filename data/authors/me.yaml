@@ -36,6 +36,7 @@ links:
   - icon: "academicons/orcid"
     url: "https://orcid.org/0000-0001-5674-8999"
     label: "ORCID Profile"
+location: "Tempe, AZ"
 interests:
   - "Health Informatics"
   - "Digital Health"
@@ -47,12 +48,13 @@ education:
     start: "Aug 2025"
     button:
       text: "Download CV"
-      url: "/uploads/cv.pdf"
+      url: "/cv/"
       icon: "hero/arrow-down-tray"
   - degree: "Doctor of Medicine (M.D.)"
     institution: "Tehran Medical Sciences Branch, Islamic Azad University (IAUTMU)"
     start: "Sep 2016"
     end: "Jun 2024"
+    thesis: "Cost-effectiveness of plasmapheresis vs hemoperfusion in critically ill COVID-19 patients"
     url: "/education/md/"
     link_text: "View Thesis & Clinical Portfolio →"
 experience:
@@ -97,6 +99,99 @@ experience:
       text: "View Research Portfolio →"
       url: "/experience/neuroscience-research-assistant/"
     summary: "Conducted data analysis and visualization in support of neuropharmacology research.\n"
+research_experience:
+  - role: "Substance Use Health Record Sharing (SHARES)"
+    org: "Arizona State University · Funded by NIDA · PI: Dr. Adela Grando"
+    period: "Oct 2024 – Present"
+    location: "Tempe, AZ"
+    bullets:
+      - "Developed and validated EHR segmentation rules to support automated substance-use-disorder record sharing."
+      - "Applied clinical domain knowledge to improve the accuracy and interpretability of structured health data."
+  - role: "Development and Evaluation of an Online Decision Aid"
+    org: "Arizona State University · Funded by AHRQ · PI: Dr. Dongwen Wang"
+    period: "Nov 2024 – Present"
+    location: "Tempe, AZ"
+    bullets:
+      - "Developed patient-facing educational content and backend scoring logic for an online contraception decision aid tailored to transgender and gender-nonconforming users assigned female at birth."
+  - role: "Computational Medicine Center"
+    org: "K. N. Toosi University of Technology"
+    period: "Aug 2023 – May 2024"
+    location: "Tehran, Iran"
+    bullets:
+      - "Led interdisciplinary development of neural networks for cardiovascular disease detection from PPG signals."
+      - "Built Python pipelines for data acquisition, preprocessing, and analysis of EHR-linked biosignal data."
+  - role: "Universal Scientific Education and Research Network (USERN)"
+    org: "Tehran University of Medical Sciences"
+    period: "Mar 2022 – Mar 2023"
+    location: "Tehran, Iran"
+    bullets:
+      - "Coordinated logistics and research-related content development for USERN events."
+      - "Automated certificate generation with Python, reducing processing time by 60%."
+  - role: "Neuroscience Research Center"
+    org: "Department of Physiology, IAUTMU"
+    period: "May 2018 – Jan 2020"
+    location: "Tehran, Iran"
+    bullets:
+      - "Conducted data analysis and visualization in support of neuropharmacology research."
+
+teaching_experience:
+  - role: "Teaching Associate"
+    org: "College of Health Solutions, Arizona State University"
+    period: "Aug 2025 – Present"
+    bullets:
+      - "Supported instruction for BMI 201 (Introduction to Clinical Informatics) and BMI 601 (Health Informatics) through assignment development, discussion facilitation, grading, and student guidance."
+  - role: "Online Instructor"
+    org: "Academic Writing & AI Workshop"
+    period: "Sep 2023"
+    bullets:
+      - "Designed and delivered a 6-hour workshop for 50+ attendees on the use of AI tools in academic writing."
+
+clinical_experience:
+  - role: "Family Physician"
+    org: "Qeshlaq Rural Health Center"
+    period: "Oct 2024 – Jul 2025"
+    location: "Abyek, Qazvin, Iran"
+    bullets:
+      - "Delivered primary and preventive care for a rural population of 7,500+ across 17 villages and 5 satellite health centers."
+      - "Managed chronic disease, prenatal, adolescent, and mental health care within Iran's national EHR system."
+      - "Coordinated care with multidisciplinary teams across distributed rural service sites."
+  - role: "Clinical Rotations"
+    org: "IAUTMU Hospital Network"
+    period: "Oct 2020 – May 2024"
+    location: "Tehran, Iran"
+    bullets:
+      - "Completed 7,000+ hours of clinical rotations across 6 hospitals and 16 specialties."
+
+certifications:
+  - title: "Medical License"
+    issuer: "Medical Council of Iran (IRIMC)"
+    date: "Sep 2024"
+    url: ""
+  - title: "IRB - Biomedical Research"
+    issuer: "CITI Program Course"
+    date: "Feb 2026"
+    url: ""
+  - title: "Human Subjects Research"
+    issuer: "CITI Program Course"
+    date: "Sep 2023"
+    url: ""
+
+professional_activities:
+  peer_review:
+    - journal: "Frontiers in Pharmacology"
+      details: "1 manuscript reviewed"
+    - journal: "Italian Journal of Gynaecology & Obstetrics"
+      details: "2 manuscripts reviewed"
+  memberships:
+    - org: "American Medical Informatics Association (AMIA)"
+      period: "Dec 2025 – Present"
+    - org: "ASU CHS Council of Inclusive Excellence (CIE)"
+      period: "Oct 2025 – Present"
+    - org: "USERN Executive Committee"
+      period: "Mar 2022 – Mar 2023"
+    - org: "IAUTMU Student Research Committee"
+      period: "Feb 2018 – Jun 2024"
+
 skills:
   - name: "Machine Learning & AI"
     items:
@@ -126,11 +221,11 @@ languages:
   - name: "Persian"
     label: "Native"
 awards:
-  - title: "First Place, Arizona BioChallenge"
+  - title: "First Place ($2,500), Arizona BioChallenge"
     awarder: "Nucleate Arizona"
     date: "2025-10-01"
     summary: "First place and $2,500 award in the Nucleate Arizona BioChallenge.\n"
-  - title: "Graduate Fellowship"
+  - title: "Graduate Fellowship ($4,845)"
     awarder: "Graduate College, Arizona State University"
     date: "2025-08-01"
     summary: "Competitive $4,845 fellowship for the 2025–2026 academic year.\n"

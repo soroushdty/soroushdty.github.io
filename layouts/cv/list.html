@@ -1,0 +1,392 @@
+{{ define "main" }}
+{{ $author := .Site.Data.authors.me }}
+<div class="cv-wrapper max-w-4xl mx-auto py-8 px-4 sm:px-6">
+  
+  <!-- Web Action Bar (Hidden in Print) -->
+  <div class="cv-actions no-print flex flex-wrap items-center justify-between gap-4 mb-8 pb-4 border-b border-gray-200 dark:border-gray-800">
+    <a href="/" class="inline-flex items-center text-sm font-semibold text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400">
+      <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+      Back to Website
+    </a>
+    
+    <div class="flex items-center gap-3">
+      <button onclick="window.print()" class="inline-flex items-center px-5 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-bold text-sm rounded-xl shadow-md transition-all cursor-pointer">
+        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 2 0 00-2-2H5a2 2 2 0 00-2 2v4a2 2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+        Print / Save as PDF
+      </button>
+      <a href="mailto:{{ (index $author.links 0).url | default "sdianaty@asu.edu" }}" class="inline-flex items-center px-4 py-2.5 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold text-sm rounded-xl border border-gray-300 dark:border-gray-700 transition-all">
+        Contact
+      </a>
+    </div>
+  </div>
+
+  <!-- CV Main Container -->
+  <article class="cv-document bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-2 sm:p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-800/60">
+    
+    <!-- 1. Header -->
+    <header class="cv-header text-center mb-8 border-b pb-6 border-gray-200 dark:border-gray-800">
+      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-1">
+        {{ $author.name.display }}{{ if $author.postnominals }}, {{ delimit $author.postnominals ", " }}{{ end }}
+      </h1>
+      <p class="text-base text-gray-600 dark:text-gray-400 font-medium mb-3">
+        {{ $author.role }}
+      </p>
+      
+      <div class="cv-contact-line flex flex-wrap justify-center items-center gap-x-4 gap-y-1 text-sm text-gray-600 dark:text-gray-400">
+        {{ if $author.location }}<span>{{ $author.location }}</span><span class="bullet">•</span>{{ end }}
+        <a href="mailto:sdianaty@asu.edu" class="hover:underline">sdianaty@asu.edu</a>
+        <span class="bullet">•</span>
+        <a href="https://soroushdianaty.com" target="_blank" class="hover:underline">soroushdianaty.com</a>
+        <span class="bullet">•</span>
+        <a href="https://scholar.google.com/citations?user={{ $author.ids.google_scholar }}" target="_blank" class="hover:underline">Google Scholar</a>
+        <span class="bullet">•</span>
+        <a href="https://orcid.org/{{ $author.ids.orcid }}" target="_blank" class="hover:underline">ORCID</a>
+      </div>
+
+      {{ if $author.bio }}
+      <p class="mt-4 text-xs sm:text-sm text-gray-700 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed text-justify sm:text-center">
+        {{ $author.bio }}
+      </p>
+      {{ end }}
+    </header>
+
+    <!-- 2. Education -->
+    {{ if $author.education }}
+    <section class="cv-section mb-8">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Education
+      </h2>
+      <div class="space-y-4">
+        {{ range $author.education }}
+        <div class="cv-item">
+          <div class="flex justify-between items-baseline flex-wrap font-semibold text-gray-900 dark:text-white">
+            <span class="text-base">{{ .degree }}</span>
+            <span class="text-xs text-gray-500 font-normal">{{ .start }}{{ if .end }} – {{ .end }}{{ else }} – Present{{ end }}</span>
+          </div>
+          <div class="text-sm text-gray-700 dark:text-gray-300 font-medium">{{ .institution }}</div>
+          {{ if .thesis }}
+          <div class="text-xs text-gray-600 dark:text-gray-400 mt-0.5 italic">
+            Thesis: {{ .thesis }}
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- 3. Skills -->
+    {{ if $author.skills }}
+    <section class="cv-section mb-8">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Skills
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+        {{ range $author.skills }}
+        <div class="cv-item">
+          <span class="font-bold text-gray-900 dark:text-white block mb-1">{{ .name }}:</span>
+          <ul class="list-disc list-inside space-y-0.5 text-gray-700 dark:text-gray-300 text-xs sm:text-sm">
+            {{ range .items }}
+            <li>{{ .label }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- 4. Publications -->
+    {{ $pubs := where .Site.RegularPages "Section" "publications" }}
+    {{ if $pubs }}
+    <section class="cv-section mb-8">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Publications
+      </h2>
+      
+      <!-- Peer-reviewed Articles -->
+      {{ $articles := where $pubs "Params.publication_types" "intersect" (slice "article-journal" "article") }}
+      {{ if $articles }}
+      <div class="mb-5">
+        <h3 class="text-base font-bold text-gray-800 dark:text-gray-200 mb-2">Peer-reviewed Articles</h3>
+        <ol class="list-decimal list-outside ml-5 space-y-2.5 text-xs sm:text-sm text-gray-800 dark:text-gray-200">
+          {{ range sort $articles "Date" "desc" }}
+          <li>
+            <span>{{ .Params.publication_authors | default $author.name.display }}</span>.
+            <span class="font-semibold text-gray-900 dark:text-white">"{{ .Title }}"</span>.
+            <span class="italic">{{ .Params.publication | safeHTML }}</span>.
+            <span>{{ .Date.Format "2006" }}</span>.
+            {{ if .Params.hugoblox.ids.doi }}
+            <a href="https://doi.org/{{ .Params.hugoblox.ids.doi }}" target="_blank" class="text-primary-600 dark:text-primary-400 hover:underline">doi:{{ .Params.hugoblox.ids.doi }}</a>
+            {{ end }}
+          </li>
+          {{ end }}
+        </ol>
+      </div>
+      {{ end }}
+
+      <!-- Conference Abstracts / Proceedings -->
+      {{ $conferences := where $pubs "Params.publication_types" "intersect" (slice "paper-conference" "conference") }}
+      {{ if $conferences }}
+      <div class="mb-5">
+        <h3 class="text-base font-bold text-gray-800 dark:text-gray-200 mb-2">Conference Abstracts & Proceedings</h3>
+        <ol class="list-decimal list-outside ml-5 space-y-2.5 text-xs sm:text-sm text-gray-800 dark:text-gray-200">
+          {{ range sort $conferences "Date" "desc" }}
+          <li>
+            <span>{{ .Params.publication_authors | default $author.name.display }}</span>.
+            <span class="font-semibold text-gray-900 dark:text-white">"{{ .Title }}"</span>.
+            <span class="italic">{{ .Params.publication | safeHTML }}</span>.
+            <span>{{ .Date.Format "2006" }}</span>.
+          </li>
+          {{ end }}
+        </ol>
+      </div>
+      {{ end }}
+
+      <!-- Book Chapters -->
+      {{ $chapters := where $pubs "Params.publication_types" "intersect" (slice "chapter") }}
+      {{ if $chapters }}
+      <div>
+        <h3 class="text-base font-bold text-gray-800 dark:text-gray-200 mb-2">Book Chapters</h3>
+        <ul class="list-disc list-outside ml-5 space-y-2.5 text-xs sm:text-sm text-gray-800 dark:text-gray-200">
+          {{ range sort $chapters "Date" "desc" }}
+          <li>
+            <span class="font-semibold text-gray-900 dark:text-white">{{ .Title }}</span>.
+            <span class="italic">{{ .Params.publication | safeHTML }}</span> ({{ .Date.Format "2006" }}).
+            {{ if .Params.summary }}
+            <div class="text-xs text-gray-600 dark:text-gray-400 mt-0.5">{{ .Params.summary }}</div>
+            {{ end }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </section>
+    {{ end }}
+
+    <!-- 5. Research Experience -->
+    {{ if $author.research_experience }}
+    <section class="cv-section mb-8">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Research Experience
+      </h2>
+      <div class="space-y-4">
+        {{ range $author.research_experience }}
+        <div class="cv-item">
+          <div class="flex justify-between items-baseline flex-wrap font-semibold text-gray-900 dark:text-white">
+            <span class="text-base">{{ .role }}</span>
+            <span class="text-xs text-gray-500 font-normal">{{ .period }}</span>
+          </div>
+          <div class="text-xs sm:text-sm text-gray-700 dark:text-gray-300 font-medium mb-1">
+            {{ .org }}{{ if .location }} | {{ .location }}{{ end }}
+          </div>
+          {{ if .bullets }}
+          <ul class="list-disc list-inside space-y-1 text-xs sm:text-sm text-gray-600 dark:text-gray-300">
+            {{ range .bullets }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- 6. Teaching Experience -->
+    {{ if $author.teaching_experience }}
+    <section class="cv-section mb-8">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Teaching Experience
+      </h2>
+      <div class="space-y-4">
+        {{ range $author.teaching_experience }}
+        <div class="cv-item">
+          <div class="flex justify-between items-baseline flex-wrap font-semibold text-gray-900 dark:text-white">
+            <span class="text-base">{{ .role }}</span>
+            <span class="text-xs text-gray-500 font-normal">{{ .period }}</span>
+          </div>
+          <div class="text-xs sm:text-sm text-gray-700 dark:text-gray-300 font-medium mb-1">{{ .org }}</div>
+          {{ if .bullets }}
+          <ul class="list-disc list-inside space-y-1 text-xs sm:text-sm text-gray-600 dark:text-gray-300">
+            {{ range .bullets }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- 7. Clinical Experience -->
+    {{ if $author.clinical_experience }}
+    <section class="cv-section mb-8">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Clinical Experience
+      </h2>
+      <div class="space-y-4">
+        {{ range $author.clinical_experience }}
+        <div class="cv-item">
+          <div class="flex justify-between items-baseline flex-wrap font-semibold text-gray-900 dark:text-white">
+            <span class="text-base">{{ .role }}</span>
+            <span class="text-xs text-gray-500 font-normal">{{ .period }}</span>
+          </div>
+          <div class="text-xs sm:text-sm text-gray-700 dark:text-gray-300 font-medium mb-1">
+            {{ .org }}{{ if .location }} | {{ .location }}{{ end }}
+          </div>
+          {{ if .bullets }}
+          <ul class="list-disc list-inside space-y-1 text-xs sm:text-sm text-gray-600 dark:text-gray-300">
+            {{ range .bullets }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- 8. Awards & Honors -->
+    {{ if $author.awards }}
+    <section class="cv-section mb-8">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Awards & Honors
+      </h2>
+      <div class="space-y-2 text-xs sm:text-sm">
+        {{ range $author.awards }}
+        <div class="cv-item flex justify-between items-baseline flex-wrap">
+          <div>
+            <span class="font-semibold text-gray-900 dark:text-white">{{ .title }}</span>
+            <span class="text-gray-600 dark:text-gray-400"> — {{ .awarder }}</span>
+          </div>
+          <span class="text-xs text-gray-500">{{ .date }}</span>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- 9. Licenses & Certifications -->
+    {{ if $author.certifications }}
+    <section class="cv-section mb-8">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Licenses & Certifications
+      </h2>
+      <div class="space-y-2 text-xs sm:text-sm">
+        {{ range $author.certifications }}
+        <div class="cv-item flex justify-between items-baseline flex-wrap">
+          <div>
+            <span class="font-semibold text-gray-900 dark:text-white">{{ .title }}</span>
+            <span class="text-gray-600 dark:text-gray-400"> | {{ .issuer }}</span>
+            {{ if .url }}
+            <a href="{{ .url }}" target="_blank" class="no-print ml-2 inline-flex items-center text-xs text-primary-600 hover:underline">
+              Verify Credential ↗
+            </a>
+            {{ end }}
+          </div>
+          <span class="text-xs text-gray-500">{{ .date }}</span>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- 10. Professional Activities -->
+    {{ if $author.professional_activities }}
+    <section class="cv-section">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Professional Activities
+      </h2>
+      
+      {{ if $author.professional_activities.peer_review }}
+      <div class="mb-4 text-xs sm:text-sm">
+        <h3 class="text-sm font-bold text-gray-800 dark:text-gray-200 mb-1">Peer Review</h3>
+        <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+          {{ range $author.professional_activities.peer_review }}
+          <li><span class="font-semibold">{{ .journal }}</span> — {{ .details }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{ if $author.professional_activities.memberships }}
+      <div class="text-xs sm:text-sm">
+        <h3 class="text-sm font-bold text-gray-800 dark:text-gray-200 mb-1">Memberships</h3>
+        <ul class="list-disc list-inside space-y-1 text-gray-700 dark:text-gray-300">
+          {{ range $author.professional_activities.memberships }}
+          <li>
+            <span class="font-semibold">{{ .org }}</span>
+            <span class="text-xs text-gray-500 font-normal"> ({{ .period }})</span>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </section>
+    {{ end }}
+
+  </article>
+</div>
+
+<!-- Dedicated Print Styling -->
+<style>
+  @media print {
+    body {
+      background: #ffffff !important;
+      color: #000000 !important;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+      font-size: 11pt !important;
+      line-height: 1.4 !important;
+    }
+    .no-print, header nav, footer, .cv-actions {
+      display: none !important;
+    }
+    .cv-wrapper {
+      max-width: 100% !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .cv-document {
+      border: none !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+      background: transparent !important;
+      color: #000000 !important;
+    }
+    .cv-header {
+      border-bottom: 1px solid #000000 !important;
+      padding-bottom: 10px !important;
+      margin-bottom: 15px !important;
+    }
+    .cv-header h1 {
+      color: #000000 !important;
+      font-size: 22pt !important;
+    }
+    .cv-section-title {
+      color: #000000 !important;
+      border-bottom: 1.5px solid #000000 !important;
+      font-size: 12pt !important;
+      margin-bottom: 10px !important;
+      padding-bottom: 2px !important;
+    }
+    .cv-item, .cv-section {
+      page-break-inside: avoid !important;
+      break-inside: avoid !important;
+    }
+    a {
+      color: #000000 !important;
+      text-decoration: none !important;
+    }
+    .bullet {
+      color: #000000 !important;
+    }
+    @page {
+      size: letter;
+      margin: 0.5in;
+    }
+  }
+</style>
+{{ end }}

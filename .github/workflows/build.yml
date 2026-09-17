@@ -79,10 +79,11 @@ jobs:
 
     - name: Install dependencies
       run: |
-        # Install Tailwind CLI if package.json exists
+        # Install dependencies and Puppeteer Chrome binary
         if [ -f "package.json" ]; then
-          echo "Installing Tailwind dependencies..."
+          echo "Installing dependencies..."
           pnpm install --no-frozen-lockfile || npm install
+          npx puppeteer browsers install chrome
         fi
 
     - name: Verify Tailwind CSS dependency

@@ -2,7 +2,8 @@
 title: "Curriculum Vitae & Contact"
 summary: "Download CV, view academic background, and connect for clinical AI research collaborations, speaking engagements, and consulting."
 date: 2026-07-26
-type: "landing"
+type: "cv"
+layout: "list"
 aliases:
   - /contact/
 sections:

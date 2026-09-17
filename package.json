@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "hugo server --disableFastRender",
     "scrub-images": "node scripts/strip-image-metadata.js",
-    "build": "pnpm run scrub-images && hugo --gc --cleanDestinationDir --minify && pnpm run pagefind",
+    "build": "pnpm run scrub-images && hugo --gc --cleanDestinationDir --minify && pnpm run pagefind && pnpm run build-pdf",
+    "build-pdf": "node scripts/generate-cv-pdf.js",
     "pagefind": "pagefind --site public",
     "prepare": "git config core.hooksPath .githooks 2>/dev/null || true"
   },
@@ -19,6 +20,7 @@
     "tailwindcss": "^4.1.12"
   },
   "devDependencies": {
-    "exiftool-vendored": "^37.2.0"
+    "exiftool-vendored": "^37.2.0",
+    "puppeteer": "^25.11.0"
   }
 }
