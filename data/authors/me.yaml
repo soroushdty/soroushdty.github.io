@@ -178,11 +178,15 @@ certifications:
   - title: "IRB - Biomedical Research"
     issuer: "CITI Program Course"
     date: "Feb 2026"
-    url: ""
+    url: "https://www.citiprogram.org/verify/?w4ad84784-1d9f-4487-ba21-5bb0e624236d-75201623"
   - title: "Human Subjects Research"
     issuer: "CITI Program Course"
     date: "Sep 2023"
-    url: ""
+    url: "https://www.citiprogram.org/verify/?wae696543-44e0-4097-82ba-8d4dcfbfb131-58116695"
+  - title: "Responsible Conduct of Research & Data Privacy"
+    issuer: "CITI Program Course"
+    date: "Sep 2023"
+    url: "https://www.citiprogram.org/verify/?w8127af47-74c0-4f4a-8b6e-aa0b0be17f9f-58116696"
 
 professional_activities:
   peer_review:

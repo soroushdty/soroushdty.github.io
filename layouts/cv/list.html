@@ -282,9 +282,15 @@
             <span class="font-semibold text-gray-900 dark:text-white">{{ .title }}</span>
             <span class="text-gray-600 dark:text-gray-400"> | {{ .issuer }}</span>
             {{ if .url }}
-            <a href="{{ .url }}" target="_blank" class="no-print ml-2 inline-flex items-center text-xs text-primary-600 dark:text-primary-400 hover:underline font-medium">
-              View / Download Certificate ↗
-            </a>
+              {{ if hasPrefix .url "http" }}
+              <a href="{{ .url }}" target="_blank" rel="noopener" class="no-print ml-2 inline-flex items-center text-xs text-primary-600 dark:text-primary-400 hover:underline font-medium">
+                Verify Credential ↗
+              </a>
+              {{ else }}
+              <a href="{{ .url }}" target="_blank" class="no-print ml-2 inline-flex items-center text-xs text-primary-600 dark:text-primary-400 hover:underline font-medium">
+                View / Download Certificate ↗
+              </a>
+              {{ end }}
             {{ end }}
           </div>
           <span class="text-xs text-gray-500">{{ .date }}</span>
