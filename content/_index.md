@@ -72,13 +72,28 @@ sections:
       subtitle: ""
       text: |
         <p class="text-base sm:text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto text-center mb-8 leading-relaxed">
-          Developing rigorous evaluation frameworks and computational infrastructure to ensure clinical AI systems are reliable, evidence-grounded, and safely deployable in healthcare workflows.
+          Developing rigorous evaluation frameworks, physiological modeling, and computational infrastructure to ensure clinical AI and wearable technologies are reliable, evidence-grounded, and safely deployable in healthcare workflows.
         </p>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 not-prose">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 not-prose">
+          <a href="/research/#wearable-biosignals" class="group block p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-rose-500/50 dark:hover:border-rose-500/50 transition-all duration-200">
+            <div class="w-10 h-10 rounded-xl bg-rose-100 dark:bg-rose-950/60 text-rose-600 dark:text-rose-400 flex items-center justify-center font-bold mb-4 group-hover:scale-105 transition-transform">
+              01
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2 group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
+              Wearable Biosignals &amp; Modeling
+            </h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+              Anchoring continuous wearable biosignals (PPG, ECG) in cardiovascular modeling for cardio-oncology and digital biomarker discovery.
+            </p>
+            <span class="inline-flex items-center text-xs font-semibold text-rose-600 dark:text-rose-400 mt-4 group-hover:translate-x-1 transition-transform">
+              Learn more →
+            </span>
+          </a>
+
           <a href="/research/#trustworthy-clinical-llms" class="group block p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-primary-500/50 dark:hover:border-primary-500/50 transition-all duration-200">
             <div class="w-10 h-10 rounded-xl bg-primary-100 dark:bg-primary-950/60 text-primary-600 dark:text-primary-400 flex items-center justify-center font-bold mb-4 group-hover:scale-105 transition-transform">
-              01
+              02
             </div>
             <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
               Trustworthy Clinical LLMs
@@ -93,7 +108,7 @@ sections:
 
           <a href="/research/#evidence-grounding" class="group block p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-secondary-500/50 dark:hover:border-secondary-500/50 transition-all duration-200">
             <div class="w-10 h-10 rounded-xl bg-secondary-100 dark:bg-secondary-950/60 text-secondary-600 dark:text-secondary-400 flex items-center justify-center font-bold mb-4 group-hover:scale-105 transition-transform">
-              02
+              03
             </div>
             <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2 group-hover:text-secondary-600 dark:group-hover:text-secondary-400 transition-colors">
               Evidence Grounding
@@ -108,7 +123,7 @@ sections:
 
           <a href="/research/#fhir-health-data" class="group block p-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-md hover:border-emerald-500/50 dark:hover:border-emerald-500/50 transition-all duration-200">
             <div class="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold mb-4 group-hover:scale-105 transition-transform">
-              03
+              04
             </div>
             <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors">
               Interoperable Health Data
