@@ -58,11 +58,11 @@ education:
     url: "/education/md/"
     link_text: "View Thesis & Clinical Portfolio →"
 experience:
-  - role: "Graduate Research Assistant — mHEALTH Lab"
-    org: "Arizona State University · PI: Dr. M. M. H. Shandhi"
+  - role: "Graduate Research Assistant — SHANDHI Lab"
+    org: "Arizona State University · Funded by AHA · PI: Dr. M. M. H. Shandhi"
     start: "Aug 2026"
     button:
-      text: "Visit mHEALTH Lab →"
+      text: "Visit SHANDHI Lab →"
       url: "https://labs.engineering.asu.edu/shandhi/"
     summary: "Applying clinical domain expertise to health wearables, multimodal biosignals (PPG, ECG), and cardiovascular modeling for cardio-oncology patient monitoring, alongside evaluation frameworks for clinical AI.\n"
   - role: "Graduate Teaching Associate"
@@ -107,8 +107,8 @@ experience:
       url: "/experience/neuroscience-research-assistant/"
     summary: "Conducted data analysis and visualization in support of neuropharmacology research.\n"
 research_experience:
-  - role: "Cardiology, Wearable Health & Biosignal Modeling (mHEALTH Lab)"
-    org: "Arizona State University · PI: Dr. M. M. H. Shandhi"
+  - role: "Cardiology, Wearable Health & Biosignal Modeling (SHANDHI Lab)"
+    org: "Arizona State University · Funded by AHA · PI: Dr. M. M. H. Shandhi"
     period: "Aug 2026 – Present"
     location: "Tempe, AZ"
     bullets:
