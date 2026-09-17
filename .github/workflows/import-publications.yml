@@ -100,7 +100,7 @@ jobs:
             📖 [View Documentation](https://github.com/GetRD/academic-file-converter)
           base: main
           labels: automated-pr, content, publications
-          branch: hugoblox-import-publications-${{ github.run_id }}
+          branch: chore/import-publications
           delete-branch: true
           draft: false
       - name: Check outputs

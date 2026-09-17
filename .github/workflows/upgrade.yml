@@ -89,7 +89,7 @@ jobs:
             **Verification:**
             - [ ] Check the Deploy Preview to ensure everything looks correct.
             - [ ] Merge this PR to apply the updates.
-          branch: "chore/upgrade-hugoblox-${{ github.run_id }}"
+          branch: "chore/upgrade-hugoblox"
           delete-branch: true
           base: main
           labels: |
