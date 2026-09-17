@@ -1,6 +1,6 @@
 ---
 title: "Clinical AI & Biomedical Informatics"
-summary: "Soroush Dianaty, M.D., is a Biomedical Informatics PhD researcher at Arizona State University studying trustworthy clinical LLMs, hallucination detection, evidence grounding, and FHIR-based health data systems."
+summary: "Soroush Dianaty, M.D., is a Biomedical Informatics PhD researcher at Arizona State University bringing clinical domain expertise to health wearables, biosignal analytics, and cardiovascular modeling while building evaluation frameworks for trustworthy clinical AI."
 date: "2026-07-26"
 type: "landing"
 sections:
@@ -42,7 +42,7 @@ sections:
                 </span>
               </div>
               <p class="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6 max-w-2xl">
-                Physician-scientist (7,500+ clinical patient encounters) developing evaluation frameworks for trustworthy clinical large language models, including hallucination detection, evidence grounding, and FHIR-based data segmentation.
+                As a health informatician with a background in medicine, I bring clinical domain expertise to health wearables and biosignal analytics in cardiology (with a focus on cardio-oncology)—anchoring wearable data in physiological rationale and cardiovascular modeling while developing evaluation frameworks for trustworthy clinical AI.
               </p>
               <div class="flex flex-wrap justify-center md:justify-start gap-3">
                 <a href="/research/" class="inline-flex items-center px-5 py-2.5 bg-primary-600 hover:bg-primary-700 text-white font-semibold text-sm rounded-xl shadow-md transition-all duration-200">

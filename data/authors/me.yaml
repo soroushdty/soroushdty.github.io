@@ -13,7 +13,7 @@ postnominals:
   - "MD"
 status: null
 role: "Physician-Scientist & PhD Student | Biomedical Informatics & Data Science"
-bio: "Physician-scientist and PhD student, focused on the evaluation and real-world implementation of clinical AI systems. My research centers on trustworthy clinical LLMs, including hallucination detection, evidence grounding, contextual reliability, and AI safety in healthcare settings. I develop evaluation frameworks and computational methods to determine whether clinical AI systems are scientifically grounded, clinically reliable, and suitable for deployment in real-world practice."
+bio: "As a health informatician with a background in medicine, I bring clinical domain expertise to health wearables and biosignal analytics in cardiology, with a focus on cardio-oncology. My work centers on anchoring wearable data in physiological rationale and cardiovascular modeling—translating continuous sensor signals into clinically meaningful biomarkers while developing evaluation frameworks for trustworthy clinical AI."
 affiliations:
   - name: "Arizona State University"
     url: "https://asu.edu"
@@ -38,9 +38,9 @@ links:
     label: "ORCID Profile"
 location: "Tempe, AZ"
 interests:
-  - "Health Informatics"
-  - "Digital Health"
-  - "Clinical LLMs"
+  - "Cardiology & Cardio-Oncology"
+  - "Health Wearables & Biosignals"
+  - "Physiological Modeling"
   - "Trustworthy Clinical AI"
 education:
   - degree: "PhD, Biomedical Informatics and Data Science"
@@ -58,6 +58,13 @@ education:
     url: "/education/md/"
     link_text: "View Thesis & Clinical Portfolio →"
 experience:
+  - role: "Graduate Research Assistant — mHEALTH Lab"
+    org: "Arizona State University · PI: Dr. M. M. H. Shandhi"
+    start: "Aug 2026"
+    button:
+      text: "Visit mHEALTH Lab →"
+      url: "https://labs.engineering.asu.edu/shandhi/"
+    summary: "Applying clinical domain expertise to health wearables, multimodal biosignals (PPG, ECG), and cardiovascular modeling for cardio-oncology patient monitoring, alongside evaluation frameworks for clinical AI.\n"
   - role: "Graduate Teaching Associate"
     org: "College of Health Solutions, Arizona State University"
     start: "Aug 2025"
@@ -100,6 +107,13 @@ experience:
       url: "/experience/neuroscience-research-assistant/"
     summary: "Conducted data analysis and visualization in support of neuropharmacology research.\n"
 research_experience:
+  - role: "Cardiology, Wearable Health & Biosignal Modeling (mHEALTH Lab)"
+    org: "Arizona State University · PI: Dr. M. M. H. Shandhi"
+    period: "Aug 2026 – Present"
+    location: "Tempe, AZ"
+    bullets:
+      - "Anchoring continuous wearable biosignals and sensor data to physiological rationale and cardiovascular modeling."
+      - "Developing digital biomarker translation pipelines and evaluation frameworks for trustworthy clinical AI in cardio-oncology."
   - role: "Substance Use Health Record Sharing (SHARES)"
     org: "Arizona State University · Funded by NIDA · PI: Dr. Adela Grando"
     period: "Oct 2024 – Present"
