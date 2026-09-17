@@ -114,7 +114,7 @@
           <li>
             <span>{{ .Params.publication_authors | default $author.name.display }}</span>.
             <span class="font-semibold text-gray-900 dark:text-white">"{{ .Title }}"</span>.
-            <span class="italic">{{ .Params.publication | safeHTML }}</span>.
+            <span>{{ .Params.publication | markdownify }}</span>.
             <span>{{ .Date.Format "2006" }}</span>.
             {{ if .Params.hugoblox.ids.doi }}
             <a href="https://doi.org/{{ .Params.hugoblox.ids.doi }}" target="_blank" class="text-primary-600 dark:text-primary-400 hover:underline">doi:{{ .Params.hugoblox.ids.doi }}</a>
@@ -135,7 +135,7 @@
           <li>
             <span>{{ .Params.publication_authors | default $author.name.display }}</span>.
             <span class="font-semibold text-gray-900 dark:text-white">"{{ .Title }}"</span>.
-            <span class="italic">{{ .Params.publication | safeHTML }}</span>.
+            <span>{{ .Params.publication | markdownify }}</span>.
             <span>{{ .Date.Format "2006" }}</span>.
           </li>
           {{ end }}
@@ -152,7 +152,7 @@
           {{ range sort $chapters "Date" "desc" }}
           <li>
             <span class="font-semibold text-gray-900 dark:text-white">{{ .Title }}</span>.
-            <span class="italic">{{ .Params.publication | safeHTML }}</span> ({{ .Date.Format "2006" }}).
+            <span>{{ .Params.publication | markdownify }}</span> ({{ .Date.Format "2006" }}).
             {{ if .Params.summary }}
             <div class="text-xs text-gray-600 dark:text-gray-400 mt-0.5">{{ .Params.summary }}</div>
             {{ end }}
