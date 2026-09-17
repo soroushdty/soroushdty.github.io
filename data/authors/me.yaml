@@ -163,6 +163,14 @@ clinical_experience:
       - "Completed 7,000+ hours of clinical rotations across 6 hospitals and 16 specialties."
 
 certifications:
+  - title: "Inter-Personal Skills in Engineering Project Management"
+    issuer: "Ira A. Fulton Schools of Engineering, Arizona State University"
+    date: "Summer 2026"
+    url: "/uploads/certificates/fse-project-management-interpersonal-skills.pdf"
+  - title: "Fundamentals of Engineering Project Management"
+    issuer: "Ira A. Fulton Schools of Engineering, Arizona State University"
+    date: "Summer 2026"
+    url: "/uploads/certificates/fse-project-management-fundamentals.pdf"
   - title: "Medical License"
     issuer: "Medical Council of Iran (IRIMC)"
     date: "Sep 2024"
