@@ -166,6 +166,11 @@ teaching_experience:
       - "Designed and delivered a 6-hour interactive online workshop for 50+ medical students and researchers on leveraging generative AI tools in academic literature synthesis, drafting, and scientific writing."
 
 workshops:
+  - title: "ChatBCT Problem-Based Learning (PBL) Intensive in Digital Health"
+    role: "Trainee / Participant"
+    date: "May 11–28, 2026"
+    location: "NIH T32 ChatBCT Program · Arizona State University (PI: Dr. Matthew Buman) · Online"
+    details: "12-hour intensive, case-based training focused on digital health intervention design, behavioral data integration, study strategy, and interdisciplinary problem-solving."
   - title: "Ethical Consumer Health AI: FUTURE-AI Framework Implementation"
     role: "Co-Organizer & Facilitator (Lead: Dr. Adela Grando)"
     date: "Spring 2026"
