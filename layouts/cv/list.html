@@ -220,7 +220,65 @@
     </section>
     {{ end }}
 
-    <!-- 7. Clinical Experience -->
+    <!-- 7. Workshops & Specialized Training -->
+    {{ if $author.workshops }}
+    <section class="cv-section mb-8">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Workshops & Specialized Training
+      </h2>
+      <div class="space-y-4">
+        {{ range $author.workshops }}
+        <div class="cv-item">
+          <div class="flex justify-between items-baseline flex-wrap font-semibold text-gray-900 dark:text-white">
+            <span class="text-base">{{ .title }}</span>
+            <span class="text-xs text-gray-500 font-normal">{{ .date }}</span>
+          </div>
+          <div class="text-xs sm:text-sm text-gray-700 dark:text-gray-300 font-medium mb-1">
+            {{ if .role }}<span class="font-semibold text-primary-600 dark:text-primary-400">{{ .role }}</span>{{ if or .location .instructors }} · {{ end }}{{ end }}
+            {{ if .instructors }}Instructors: {{ .instructors }}{{ if .location }} · {{ end }}{{ end }}
+            {{ if .location }}{{ .location }}{{ end }}
+          </div>
+          {{ if .details }}
+          <p class="text-xs sm:text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            {{ .details }}
+          </p>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- 8. Leadership & Professional Experience -->
+    {{ if $author.leadership_experience }}
+    <section class="cv-section mb-8">
+      <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
+        Leadership & Professional Experience
+      </h2>
+      <div class="space-y-4">
+        {{ range $author.leadership_experience }}
+        <div class="cv-item">
+          <div class="flex justify-between items-baseline flex-wrap font-semibold text-gray-900 dark:text-white">
+            <span class="text-base">{{ .role }}</span>
+            <span class="text-xs text-gray-500 font-normal">{{ .period }}</span>
+          </div>
+          <div class="text-xs sm:text-sm text-gray-700 dark:text-gray-300 font-medium mb-1">
+            {{ .org }}{{ if .location }} | {{ .location }}{{ end }}
+          </div>
+          {{ if .bullets }}
+          <ul class="list-disc list-inside space-y-1 text-xs sm:text-sm text-gray-600 dark:text-gray-300">
+            {{ range .bullets }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    <!-- 9. Clinical Experience -->
     {{ if $author.clinical_experience }}
     <section class="cv-section mb-8">
       <h2 class="cv-section-title text-xl font-bold uppercase tracking-wider text-gray-900 dark:text-white pb-1.5 mb-4 border-b-2 border-primary-500">
@@ -325,6 +383,7 @@
           {{ range $author.professional_activities.memberships }}
           <li>
             <span class="font-semibold">{{ .org }}</span>
+            {{ if .role }} — <span class="text-gray-700 dark:text-gray-300">{{ .role }}</span>{{ end }}
             <span class="text-xs text-gray-500 font-normal"> ({{ .period }})</span>
           </li>
           {{ end }}
