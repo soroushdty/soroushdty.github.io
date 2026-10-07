@@ -11,10 +11,11 @@ sections:
       text: |
         <div class="w-full max-w-6xl mx-auto py-6 sm:py-10 px-6 sm:px-10 bg-gradient-to-r from-primary-500/10 via-transparent to-secondary-500/10 rounded-3xl border border-gray-200/60 dark:border-gray-800 shadow-sm my-2">
           <div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-10 items-center">
-            <div class="md:col-span-4 lg:col-span-4 flex justify-center">
+            <div class="md:col-span-4 lg:col-span-4 flex flex-col items-center justify-center">
               <div class="relative">
                 <img class="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full object-cover shadow-xl ring-4 ring-primary-500/20" src="/media/authors/me.jpg" alt="Portrait of Soroush Dianaty, M.D." width="256" height="256" loading="eager" fetchpriority="high">
               </div>
+              {{< author-links >}}
             </div>
             <div class="md:col-span-8 lg:col-span-8 text-center md:text-left">
               <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white tracking-tight mb-2">
