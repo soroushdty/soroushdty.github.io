@@ -27,6 +27,7 @@ As a physician-scientist and PhD researcher in Biomedical Informatics at Arizona
       <li>Multimodal biosignal processing and feature extraction from continuous PPG and ECG waveforms.</li>
       <li>Cardiovascular and physiological modeling for remote monitoring in cardio-oncology (SHANDHI Lab, AHA-funded).</li>
       <li>Digital biomarker translation pipelines and evaluation frameworks for trustworthy clinical AI in wearable cardiology.</li>
+      <li>Standards-based capture of consumer wearable and home-device vital signs as FHIR Observations (<a href="/projects/vitals-on-fhir/" class="text-primary-600 dark:text-primary-400 underline">vitals-on-fhir</a>).</li>
     </ul>
   </div>
 </section>
@@ -43,7 +44,7 @@ As a physician-scientist and PhD researcher in Biomedical Informatics at Arizona
     <h3 class="font-semibold text-gray-900 dark:text-white">Key Research Focus Areas:</h3>
     <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
       <li>Automated hallucination detection in clinical summaries and consultations.</li>
-      <li>Context-aware LLMs for sensitive health data classification and privacy protection.</li>
+      <li>Context-aware LLMs for sensitive health data classification and privacy protection (<a href="/projects/carebench/" class="text-primary-600 dark:text-primary-400 underline">CAREBench</a>).</li>
       <li>Evaluation metrics aligned with real-world physician workflow requirements.</li>
     </ul>
   </div>
@@ -62,7 +63,8 @@ As a physician-scientist and PhD researcher in Biomedical Informatics at Arizona
     <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
       <li>Retrieval-Augmented Generation (RAG) verification for clinical practice guidelines.</li>
       <li>Auditability tools to trace AI outputs back to source EHR clinical notes.</li>
-      <li>Computational platforms (e.g. EviTrace) for evidence attribution.</li>
+      <li>Computational platforms (e.g. <a href="/projects/evitrace/" class="text-primary-600 dark:text-primary-400 underline">EviTrace</a>) for evidence attribution.</li>
+      <li>Machine-readable markup of clinical practice guidelines, linked passage by passage to the source text (<a href="/projects/cutgl/" class="text-primary-600 dark:text-primary-400 underline">CutGL</a>).</li>
     </ul>
   </div>
 </section>
@@ -81,6 +83,7 @@ As a physician-scientist and PhD researcher in Biomedical Informatics at Arizona
       <li>FHIR-based granular data segmentation (SHARES project, NIDA-funded).</li>
       <li>Standardized terminology mapping (SNOMED-CT, LOINC, RxNorm, ICD-10).</li>
       <li>Scalable deployment architectures for privacy-preserving health data exchange.</li>
+      <li>Patient-generated vital signs as US Core FHIR R4 Observations, with security labels for simulated data (<a href="/projects/vitals-on-fhir/" class="text-primary-600 dark:text-primary-400 underline">vitals-on-fhir</a>).</li>
     </ul>
   </div>
 </section>

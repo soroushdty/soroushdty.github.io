@@ -6,22 +6,25 @@ main:
   - name: Research
     url: /research/
     weight: 2
+  - name: Projects
+    url: /projects/
+    weight: 3
   - name: Publications
     url: /publications/
-    weight: 3
+    weight: 4
   - name: Hobbies
     url: /hobbies/
-    weight: 4
+    weight: 5
   - name: Photography
     url: /photography/
-    weight: 5
+    weight: 6
   - name: Blog
     url: /blog/
-    weight: 6
+    weight: 7
   - name: Teaching
     url: /teaching/
-    weight: 7
+    weight: 8
   - name: CV / Contact
     url: /cv/
-    weight: 8
+    weight: 9
 

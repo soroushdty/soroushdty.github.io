@@ -14,12 +14,22 @@
   {{ $resource = $item.Resources.GetMatch "*.jpg" }}
 {{ end }}
 
-<div class="group relative flex flex-col md:flex-row items-stretch gap-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-5 shadow-sm hover:shadow-md transition-all duration-300 mb-6">
+{{/* image: {fit: contain} shows the whole image (logos); otherwise crop to the frame at image.focal_point. */}}
+{{ $contain := false }}
+{{ $anchor := "Center" }}
+{{ if reflect.IsMap $item.Params.image }}
+  {{ $contain = eq $item.Params.image.fit "contain" }}
+  {{ $anchor = $item.Params.image.focal_point | default "Center" }}
+{{ end }}
+
+{{/* Side-by-side only when the card itself is wide (single-column lists); stacked in grids. */}}
+<div class="@container mb-6">
+<div class="group relative flex flex-col @lg:flex-row items-stretch gap-6 bg-white dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 p-5 shadow-sm hover:shadow-md transition-all duration-300">
   {{ if $resource }}
-    {{ $image := $resource.Resize "600x400 fill webp" }}
-    <div class="w-full md:w-2/5 flex-shrink-0 overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800 aspect-[16/10] relative">
+    {{ $image := cond $contain ($resource.Fit "800x500 webp") ($resource.Fill (printf "800x500 %s webp" $anchor)) }}
+    <div class="w-full @lg:w-2/5 flex-shrink-0 overflow-hidden rounded-xl {{ if $contain }}bg-white{{ else }}bg-gray-100 dark:bg-gray-800{{ end }} aspect-[16/10] relative">
       <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $item.Title }}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+        <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $item.Title }}" class="w-full h-full {{ if $contain }}object-contain p-3{{ else }}object-cover{{ end }} transition-transform duration-500 group-hover:scale-105" loading="lazy">
       </a>
     </div>
   {{ end }}
@@ -53,4 +63,5 @@
       </div>
     {{ end }}
   </div>
+</div>
 </div>
