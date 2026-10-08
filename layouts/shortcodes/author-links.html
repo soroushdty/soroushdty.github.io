@@ -1,0 +1,30 @@
+{{ $username := .Get "username" | default "me" }}
+{{ $profile := partial "functions/get_author_profile" $username }}
+{{ with $profile.links }}
+<div class="flex flex-wrap justify-center gap-3 mt-6">
+  {{ range . }}
+  {{ $iconName := index . "icon" | default "" }}
+  {{ $linkUrl := index . "url" | default (index . "link") | default "" }}
+  {{ $linkLabel := index . "label" | default "" }}
+  {{ $linkUrl = strings.TrimSpace $linkUrl }}
+  {{ if $linkUrl }}
+    {{ $scheme := (urls.Parse $linkUrl).Scheme }}
+    {{ $target := "" }}
+    {{ if not $scheme }}
+      {{ if not (hasPrefix $linkUrl "#") }}
+        {{ $linkUrl = $linkUrl | relLangURL }}
+      {{ end }}
+      {{ if eq (path.Ext $linkUrl) ".pdf" }}{{ $target = "target=\"_blank\" rel=\"noopener\"" }}{{ end }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+    <a href="{{ $linkUrl | safeURL }}" {{ $target | safeHTMLAttr }}
+       aria-label="{{ $linkLabel | default $iconName }}"
+       {{ if $linkLabel }} title="{{ $linkLabel }}"{{ end }}
+       class="w-11 h-11 sm:w-12 sm:h-12 flex items-center justify-center rounded-full bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 shadow-md hover:shadow-xl hover:scale-110 hover:-translate-y-1 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-300 border border-gray-200 dark:border-gray-700">
+      {{ partial "functions/get_icon" (dict "name" $iconName "attributes" "class=\"w-5 h-5 sm:w-6 sm:h-6\"") }}
+    </a>
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}
