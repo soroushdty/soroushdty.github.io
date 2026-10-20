@@ -101,7 +101,7 @@ sections:
         </h2>
 
         <p>
-        My musical landscape is broad and eclectic, spanning Rock, Metal, Western Classical, and Persian Classical compositions. I find immense power in the symphonic structures of Beethoven, Mozart, Wagner, and Puccini, alongside the atmospheric depth of Pink Floyd, Anathema, Evanescence, Epica, Nightwish, Nirvana, Metallica, and Queen. I am equally drawn to the expressive vocal artistry of Édith Piaf, Joan Baez, Florence and the Machine, Lana Del Rey, and Adele, with Dua Lipa as my occasional guilty pleasure.
+        My musical landscape is broad and eclectic, spanning Rock, Metal, Western Classical, and Persian Classical compositions. I find immense power in the symphonic structures of Beethoven, Mozart, Wagner, and Puccini, alongside the atmospheric depth of Pink Floyd, Anathema, Evanescence, Epica, Nightwish, Nirvana, Metallica, and Queen. I am equally drawn to the expressive vocal artistry of Édith Piaf, Joan Baez, Florence and the Machine, Lana Del Rey, and Adele, with Dua Lipa and Lady Gaga as my occasional guilty pleasures.
         </p>
 
         <!-- Scattered Photo Pair 4: 4x4 Sunset & River Gorge -->
