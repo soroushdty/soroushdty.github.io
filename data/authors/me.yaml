@@ -248,6 +248,10 @@ certifications:
 
 professional_activities:
   peer_review:
+    - journal: "2027 Amplify Informatics Conference"
+      details: "6 papers reviewed"
+    - journal: "Frontiers in Medicine"
+      details: "1 manuscript reviewed"
     - journal: "Frontiers in Pharmacology"
       details: "1 manuscript reviewed"
     - journal: "Italian Journal of Gynaecology & Obstetrics"
