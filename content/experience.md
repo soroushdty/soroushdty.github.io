@@ -62,7 +62,7 @@ sections:
 
         **Peer review**
 
-        - *2027 Amplify Informatics Conference* — 6 papers
+        - *AMIA 2027 Amplify Informatics Conference* — 6 papers
         - *Frontiers in Medicine* — 1 manuscript
         - *Frontiers in Pharmacology* — 1 manuscript
         - *Italian Journal of Gynaecology & Obstetrics* — 2 manuscripts
